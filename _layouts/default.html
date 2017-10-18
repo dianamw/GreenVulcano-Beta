@@ -81,12 +81,12 @@
 
 <div id="main">
   <h2>GreenVulcano Documentation</h2>
-  <button class="btn" style="font-size:15px;cursor:pointer" onclick="openNav()">&#9776; Select Documentation</button>
+  <button class="btn" id="docBtn" style="font-size:15px;cursor:pointer" onclick="openNav()">&#9776; Select Documentation</button>
 </div>
   {{ content }}
 
 <script>
-function openNav() {
+/*function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "100px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
@@ -95,6 +95,27 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
     document.body.style.backgroundColor = "white";
+} */
+  
+  
+  document.getElementById("docBtn").addEventListener("click", toggleNav);
+
+function toggleNav(){
+    navSize = document.getElementById("mySidenav").style.width;
+    if (navSize == 250) {
+        return close();
+    }
+    return open();
+}
+function open() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+function close() {
+         document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
 }
 </script>
       
