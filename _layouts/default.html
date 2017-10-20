@@ -28,10 +28,6 @@
     <section class="main-content">
       <!--inizio Sidebar-->
       <style>
-body {
-    font-family: "Lato", sans-serif;
-}
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -39,7 +35,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #238650;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -81,7 +77,7 @@ body {
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
+  <li>About</li>
   <a href="#">Services</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a>
@@ -90,7 +86,7 @@ body {
 <div id="main">
   <h2>GreenVulcano Documentation</h2>
   <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  <button class="btn" onclick="openNav()">&#9776; See Documentation</button>
 
 
 <script>
