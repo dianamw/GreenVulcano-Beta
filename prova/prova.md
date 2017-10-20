@@ -1,2 +1,2 @@
 #  Punta Prova
- ![Bau](_uploads/gv_logo.png)
+ ![Bau](/path/to/_uploads/gv_logo.png)
