@@ -1,6 +1,6 @@
 # GreenVulcano Github Pages
 
-![My helpful screenshot]({{ "/assets/gv_logo.png" | absolute_url }})
+![My helpful screenshot]({{ "assets/gv_logo.png" | absolute_url }})
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris et tortor dapibus faucibus. Mauris condimentum purus vel nisi dictum, sed varius ipsum dignissim. Praesent id tellus dignissim, vulputate lorem at, pharetra odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent posuere neque risus, sit amet laoreet dui laoreet sit amet. Nullam auctor urna ut aliquam lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
