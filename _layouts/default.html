@@ -47,21 +47,8 @@
   <h2>GreenVulcano Documentation</h2>
   <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
   <button class="btn" onclick="openNav()">&#9776; See Documentation</button>
-
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-} 
-</script>
-     
-</body>
     {{ content }}
+  </body>
     <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
