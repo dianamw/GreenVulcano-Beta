@@ -44,7 +44,7 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: $btn-font-color;
   background-color: $section-headings-color;
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
