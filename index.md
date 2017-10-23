@@ -1,5 +1,7 @@
 # GreenVulcano Github Pages
 
+![My helpful screenshot]({{ "/assets/gv_logo.png" | absolute_url }})
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris et tortor dapibus faucibus. Mauris condimentum purus vel nisi dictum, sed varius ipsum dignissim. Praesent id tellus dignissim, vulputate lorem at, pharetra odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent posuere neque risus, sit amet laoreet dui laoreet sit amet. Nullam auctor urna ut aliquam lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
 Duis lectus turpis, hendrerit eget auctor at, ornare vitae sem. Duis eu rhoncus mi, in pretium risus. Praesent id molestie elit, non varius tellus. Sed at quam ac sem fermentum consequat. Sed convallis arcu ante, at dapibus ligula blandit nec. Nulla tincidunt velit arcu, eget maximus risus fermentum rhoncus. Vestibulum egestas vel ex nec facilisis. Vivamus dapibus in quam ac pellentesque. In hac habitasse platea dictumst. Praesent cursus nulla eu sagittis rutrum. Vestibulum tincidunt, ipsum ac commodo maximus, elit nulla faucibus risus, ac dignissim ligula tortor in lacus. Vivamus massa augue, pellentesque in sapien vitae, pellentesque lobortis lacus.
