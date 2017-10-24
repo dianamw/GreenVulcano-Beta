@@ -1,16 +1,125 @@
-# GreenVulcano Github Pages
+# GreenVulcano  Prova Github Pages
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+---
+layout: default
+---
+
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
 [Link to another page](another-page).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris et tortor dapibus faucibus. Mauris condimentum purus vel nisi dictum, sed varius ipsum dignissim. Praesent id tellus dignissim, vulputate lorem at, pharetra odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent posuere neque risus, sit amet laoreet dui laoreet sit amet. Nullam auctor urna ut aliquam lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+There should be whitespace between paragraphs.
 
-Duis lectus turpis, hendrerit eget auctor at, ornare vitae sem. Duis eu rhoncus mi, in pretium risus. Praesent id molestie elit, non varius tellus. Sed at quam ac sem fermentum consequat. Sed convallis arcu ante, at dapibus ligula blandit nec. Nulla tincidunt velit arcu, eget maximus risus fermentum rhoncus. Vestibulum egestas vel ex nec facilisis. Vivamus dapibus in quam ac pellentesque. In hac habitasse platea dictumst. Praesent cursus nulla eu sagittis rutrum. Vestibulum tincidunt, ipsum ac commodo maximus, elit nulla faucibus risus, ac dignissim ligula tortor in lacus. Vivamus massa augue, pellentesque in sapien vitae, pellentesque lobortis lacus.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-Morbi posuere, erat quis fermentum rutrum, neque mauris varius arcu, sed tincidunt mauris erat a nisl. Aliquam erat volutpat. Sed elementum metus sed nisi commodo gravida. Vestibulum condimentum tempus tristique. Duis malesuada lectus metus, vitae feugiat ipsum volutpat ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend porttitor ligula, sed bibendum ex accumsan ac. Vivamus mollis eros a est dictum tristique. Ut varius sed quam sit amet tincidunt. Suspendisse hendrerit ipsum in orci mollis ullamcorper. Maecenas maximus eleifend eros. Vestibulum pulvinar consequat tortor, quis scelerisque mauris tempor ut. Cras vitae velit a leo condimentum tempus. Nulla egestas tortor non odio fermentum ullamcorper. Sed non posuere tortor.
+# [](#header-1)Header 1
 
-Mauris at egestas diam, at convallis ex. Donec dignissim hendrerit nibh, vel consequat enim commodo eu. Duis ligula dolor, interdum ac tincidunt quis, elementum vel felis. Curabitur laoreet bibendum odio, ut pretium arcu porttitor nec. Aliquam lobortis, nibh ac euismod ullamcorper, libero erat sodales mi, non volutpat sapien erat vitae felis. Vivamus condimentum placerat quam, non consectetur mauris tincidunt ac. Mauris volutpat nulla quis magna tristique cursus. Curabitur a ipsum sollicitudin, molestie ante sit amet, consequat arcu.
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-Nullam vel lorem neque. Cras ut ante arcu. Etiam laoreet felis ac suscipit suscipit. Proin ex velit, gravida at justo ut, egestas porttitor quam. In arcu ante, posuere tempor augue vitae, pulvinar dignissim dolor. Pellentesque vitae euismod mi. Donec eget erat molestie, ultricies risus at, maximus magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed commodo purus sit amet luctus elementum.
+## [](#header-2)Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### [](#header-3)Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### [](#header-4)Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### [](#header-5)Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### [](#header-6)Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![](https://guides.github.com/activities/hello-world/branching.png)
 
 
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
