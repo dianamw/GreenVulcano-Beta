@@ -11,4 +11,4 @@ collections:
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-redirect-from
-redirect: /docs
+redirect: /docs/
