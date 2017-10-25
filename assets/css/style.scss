@@ -42,3 +42,35 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+#titleT{
+  color: #ffffff;
+  padding-top: 5px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+ul {
+  color: #ffffff;
+  font-size:17px;
+  margin-bottom: 5px;
+  }
+
+ul:hover {
+  background-color:#ffffff;
+  color: #238650;
+}
+li {
+  color:#ffffff;
+  font-size:15px;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  list-style: none
+}
+
+li:hover {
+  background-color:#ffffff;
+  color: #238650;
+}
