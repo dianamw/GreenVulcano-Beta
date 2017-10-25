@@ -1,6 +1,6 @@
-# Guida per inserire le immagini
+# How to insert images
 
-> Inserire nell'href:
+> Insert images into href with the given path:
 ```
 ../assets/images/nomefile
 ```
