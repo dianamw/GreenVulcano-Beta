@@ -1,5 +1,3 @@
-# GreenVulcano Github Pages
-
 ### Guida al Markdown
 ---
 layout: default
