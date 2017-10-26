@@ -45,26 +45,17 @@
   <button class="btn" onclick="openNav()">&#9776; See Documentation</button>
   -->
     <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" id="scem" onclick="closeNav()">&times;</a>
     <p id="titleT">Table of Contents</p>
-    <ul href="index">Home</ul>
-    <ul href="{{ " pages/about " | relative_url }}">About</ul>
-    <ul href="{{ " pages/services " | relative_url }}">Services</ul>
-    <li href="{{" pages/minorservices " | relative_url}}"> Minor Services </li>
-    <li href="{{" pages/minorservices " | relative_url}}"> Major Services </li>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <ul><a href="index">Home</a></ul>
+    <ul><a href="www.google.it">About</a></ul>
+    <ul><a href="{{ " pages/services " | relative_url }}">Services</a></ul>
+    <div id="listed">
+    <li><a href="{{" pages/minorservices " | relative_url}}"> Minor Services</a> </li>
+    <li><a href="{{" pages/minorservices " | relative_url}}"> Major Services </a></li>
+  </div>
+
+
   </div>
 
   <div id="main">
