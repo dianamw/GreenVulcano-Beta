@@ -43,4 +43,32 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+ul a {
+  color: #ffffff;
+  font-size:17px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  }
+
+ul a:hover {
+  background-color:#ffffff;
+  color: #238650;
+}
+
+#listed li {
+  list-style-type: none;
+}
+
+#listed a {
+  color: #ffffff;
+  font-size:15px;
+
+  margin-left:50px;
+  text-decoration: none;
+}
+
+#listed li :hover {
+  background-color:#ffffff;
+  color: #238650;
+}
 
