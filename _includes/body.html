@@ -1,1 +1,37 @@
+<body>
+    <section class="page-header">
+     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1>
+    </section> 
+  <body>
+  <section class="main-content">
+    <!--Sidebar -->
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <p id="titleT">Table of Contents</p>
+    <div id="listed">
+    <ul><a href="index">Home</a></ul>
+    <ul><a href="{{ "pages/about" | relative_url }}">About</a></ul>
+    <ul><a href="{{ "pages/nodes" | relative_url }}">Manuale di Installazione Lorem ipsum </a></ul>
+  </div>
+  <div id="listedLi">
+    <li><a href="{{ "pages/nodes1" | relative_url}}"> &gt; Manuale di Installazione Lorem ipsum </a> </li>
+    <li><a href="{{ "pages/nodes2" | relative_url}}"> &gt; Manuale di Installazione Lorem ipsum</a></li>
+  </div>
+  <div id="listed">
+  <ul><a href="{{ "pages/index" | relative_url }}">Prova</a></ul>
+  <ul><a href="{{ "pages/about" | relative_url }}">About</a></ul>
+  <ul><a href="{{ "pages/services" | relative_url }}">Manuale di Installazione  </a></ul>
+</div>
+<div id="listedLi">
+  <li><a href="{{ "pages/minorservices" | relative_url}}"> &gt; Manuale Prova </a> </li>
+  <li><a href="{{ "pages/minorservices" | relative_url}}"> &gt; Manuale Installazione</a></li>
+</div>
+  </div>
 
+  <div id="main">
+    <h1>GreenVulcano Documentation</h1>
+    <p>Click on the button below to read Documentation</p>
+    <button class="btn" onclick="openNav()">&#9776; See Documentation</button>
+    {{ content }}
+  </body>
