@@ -13,10 +13,10 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #238650;
+    background-color: #124667;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .sidenav a {
     //padding:8px;
@@ -55,10 +55,10 @@ body {
 
 #listed a {
   color: #ffffff;
-  font-size:17px;
+  font-size: 13px;
   text-decoration: none;
-  font-weight: bold;
 }
+
 #listedLi li {
     list-style-type: none;
     margin-left: 60px;
