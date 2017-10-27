@@ -8,17 +8,15 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #238650;
+    background-color: #124667;
     overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    //transition: 0.5s;
+    padding-top: 40px;
 }
 .sidenav a {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     color: #ffffff;
-    display: block;
     transition: 0.3s;
     }
         
@@ -32,6 +30,7 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
+    margin-left: 250px
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -42,29 +41,26 @@ body {
   padding-top: 5px;
   margin-left: 20px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
-ul {
+#listed ul {
+  list-style-type: none;
+}
+
+#listed a {
   color: #ffffff;
-  font-size:17px;
-  margin-bottom: 5px;
-  }
-
-ul:hover {
-  background-color:#ffffff;
-  color: #238650;
-}
-li {
-  color:#ffffff;
-  font-size:15px;
-  padding-top:5px;
-  padding-bottom:5px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-  list-style: none
+  font-size: 14px;
+  text-decoration: none;
 }
 
-li:hover {
-  background-color:#ffffff;
-  color: #238650;
+#listedLi li {
+    list-style-type: none;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#listedLi a {
+    color: #ffffff;
+    text-decoration: none;
 }
