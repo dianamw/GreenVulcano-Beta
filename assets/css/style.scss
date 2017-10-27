@@ -3,7 +3,8 @@
 
 @import "{{ site.theme }}";
 /**** Sidebar ****/
-body {
+{% include sidebar.css %}
+/*body {
     font-family: "Lato", sans-serif;
 }
 .sidenav {
@@ -68,6 +69,6 @@ body {
 #listedLi a {
     color: #ffffff;
     text-decoration: none;
-}
+} */
 
 
