@@ -6,7 +6,7 @@
   <body>
   <section class="main-content">
    <!--Sidebar -->
-   <!-- da qua  <div id="mySidenav" class="sidenav">
+   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <p id="titleT">Table of Contents</p>
     <div id="listed">
@@ -31,34 +31,6 @@
   <div id="main">
     <h1>GreenVulcano Documentation</h1>
     <p>Click on the button below to read Documentation</p>
-    <button class="btn" onclick="openNav()">&#9776; See Documentation</button> -->
-      <nav id="sidebar">
-      <ul class="list-unstyled components">
-        <p>Documentation</p>
-        <li class="active">
-          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
-          <ul class="collapse list-unstyled" id="homeSubmenu">
-            <li><a href="#">Home 1</a></li>
-            <li><a href="#">Home 2</a></li>
-            <li><a href="#">Home 3</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Docs</a>
-          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Docs</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu">
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Documentation 2</a>
-        </li>
-        <li>
-          <a href="#">Documentation 3</a>
-        </li>
-      </ul>
-    </nav>
+    <button class="btn" onclick="openNav()">&#9776; See Documentation</button>
     {{ content }}
   </body>
