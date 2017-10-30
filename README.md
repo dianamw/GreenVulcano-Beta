@@ -1,3 +1,3 @@
 # GreenVulcano-Beta
 
-read me 
+Istruzioni:
