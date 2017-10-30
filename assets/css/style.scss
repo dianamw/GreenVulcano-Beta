@@ -68,5 +68,356 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+/* Prova */
 
+.navbar-default .navbar-link {
+    color: #238650;
+}
+.navbar-text{
+  color: #238650;
+  font-family: "Franklin Gothic";
+  font-size:16px;
+}
+
+#linkC:hover{
+  text-decoration: none;
+  color: #7e7e7e;
+  margin-bottom: 10%;
+
+}
+#linkB{
+  margin-top: 13%;
+  margin-right: 10%;
+  text-decoration: none;
+  color: #7e7e7e;
+  margin-bottom: 10%;
+}
+#searchB[type=text] {
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px solid #238650 ;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: white;
+    background-image: url('iconS.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+#panelHead{
+  font-size: 16px;
+}
+
+/* ---------------------------------------------------
+    FOOTER STYLE
+----------------------------------------------------- */
+
+#myFooter{
+    margin-bottom:10px;
+
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Franklin Gothic";
+    color: black;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #238650;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#myFooter li{
+    display: inline-block;
+    color:#238650;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #238650;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: grey;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover{
+    color:red;
+}
+
+#myFooter .fa-google-plus:focus{
+    color:red;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+#myFooter .fa-linkedin:hover{
+   color: #0077B5;
+}
+
+#myFooter .fa-linkedin:focus{
+    color: #0077B5;
+}
+/* da modificare */
+#myFooter .fa-github:hover{
+   color: black;
+}
+
+#myFooter .fa-github:focus{
+    color: black;
+}
+
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family:sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px 15px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 8%;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #238650;
+    color: #fff;
+    transition: all 0.3s;
+    margin-top:9%;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    /*padding: 20px;*/
+    background: #238650;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #238650;
+}
+
+#sidebar ul p {
+  margin-left:10px;
+    color: #fff;
+    padding: 12px;
+}
+
+#sidebar ul li a {
+  margin-left:10px;
+    padding: 12px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #238650;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #238650 ;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #238650 ;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article, a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+btnTog {
+	color:#238650;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    margin-top:8%
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+/*html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+} */
+
+/*.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}*/
+
+/*#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}*/
+
+/******* Start Style for Small-Screen *******/
+@media (max-width: 768px) {
+  #linkC{
+    margin-top: 100px;
+  }
 
