@@ -2,5 +2,5 @@
 
 > Insert images into href with the given path:
 ```
-../assets/images/nomefile
+../assets/images/filename
 ```
