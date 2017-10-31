@@ -6,9 +6,9 @@
 body {
     font-family: "Lato", sans-serif;
 }
-/*.sidenav {
+.sidenav {
     height: 100%;
-    width: 0;
+    //width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -85,7 +85,6 @@ button.accordion {
   text-decoration:none;
 }
 
-
 button.accordion.active, button.accordion:hover {
     background-color: #124667;
 }
@@ -109,17 +108,6 @@ div.panel {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-}
-
-.sidebar {
-height: 100%;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: #124667;
-overflow-x: hidden;
-padding-top: 30px;
 }
 
 #titleT{
