@@ -113,25 +113,25 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <h2 id="titleT"> Table of contents</h2>
     <div id="listed">
-      <ul><a href="#">Home</a></ul>
+      <ul><a href="{{ "index" | relative_url }}">Home</a></ul>
     </div>
     <div class="panel">
     </div>
 
     <div id="listed">
-      <ul><a href="google.it">Quickstart Guide</a></ul>
+      <ul><a href="{{ "pages/quickstartguide" | relative_url }}">Quickstart Guide</a></ul>
     </div>
     <div class="panel">
     </div>
     <div id="listed">
-      <ul><a href="#">About</a></ul>
+      <ul><a href="{{ "pages/about" | relative_url }}">About</a></ul>
     </div>
 
   <button class="accordion" >Nodes</button>
     <div class="panel">
       <div id="listed">
-        <li><a href=#> Node1</a></li>
-        <li><a href=#> Node2</a></li>
+        <li><a href="{{ "pages/nodes1" | relative_url}}"> Node1</a></li>
+        <li><a href="{{ "pages/nodes2" | relative_url}}"> Node2</a></li>
       </div>
     </div>
 
