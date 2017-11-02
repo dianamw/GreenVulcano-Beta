@@ -6,11 +6,11 @@
 body {
     font-family: "Lato", sans-serif;
 }
-.closebtn{
+/*.closebtn{
     margin-left:100px;
     color: #ffffff;
 }
-/*.sidenav {
+.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -35,7 +35,7 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }*/
-#main {
+/*#main {
     transition: margin-left .5s;
     padding: 16px;
     margin-left: 250px
@@ -43,7 +43,7 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+}*/
 /*#titleT{
   color: #ffffff;
   padding-top: 5px;
