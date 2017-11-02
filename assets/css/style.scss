@@ -6,7 +6,7 @@
 body {
     font-family: "Lato", sans-serif;
 }
-.sidenav {
+/*.sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -30,7 +30,7 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
+}*/
 #main {
     transition: margin-left .5s;
     padding: 16px;
@@ -40,7 +40,7 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-#titleT{
+/*#titleT{
   color: #ffffff;
   padding-top: 5px;
   margin-left: 20px;
@@ -62,7 +62,7 @@ body {
     margin-bottom: 15px;
 }*/
 
- button.accordion {
+ /*button.accordion {
     background-color: #124667;
     color: #ffffff;
     cursor: pointer;
@@ -117,4 +117,4 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+  }*/
