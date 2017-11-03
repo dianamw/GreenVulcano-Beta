@@ -1,4 +1,4 @@
-### Guida al Markdown
+# Guida al Markdown
 ---
 layout: default
 ---
