@@ -1,3 +1,4 @@
+function toggleLi(){
 var acc = document.getElementsByClassName("accordion");
       var i;
 
@@ -12,3 +13,4 @@ var acc = document.getElementsByClassName("accordion");
           }
         }
       }
+}
