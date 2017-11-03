@@ -52,13 +52,6 @@ a {
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
-  /*&:hover {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    background-color: $hover-color-btn;
-    border-color: rgba(255, 255, 255, 0.3);
-  }*/
-
   + .btn {
     margin-left: 1rem;
   }
@@ -147,7 +140,6 @@ a {
   }
 
   @include large {
-    /*max-width: 64rem;*/
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
