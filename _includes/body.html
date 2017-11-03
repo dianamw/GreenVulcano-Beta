@@ -1,82 +1,79 @@
 <body>
-    <section class="page-header">
-     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> 
+  <section class="page-header">
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
     <!-- <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1> -->
-    </section> 
-   <section class="main-content">
+  </section>
+  <section class="main-content">
 
-  <div id="mySidenav" class="sidebar">
+    <div id="mySidenav" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <h2 id="titleT"> Table of contents</h2>
-    <div id="listed">
-      <ul><a href="{{ "index" | relative_url }}">Home</a></ul>
-    </div>
-    <div class="panel">
-    </div>
-
-    <div id="listed">
-      <ul><a href="{{ "pages/quickstartguide" | relative_url }}">Quickstart Guide</a></ul>
-    </div>
-    <div class="panel">
-    </div>
-    <div id="listed">
-      <ul><a href="{{ "pages/about" | relative_url }}">About</a></ul>
-    </div>
-      
-
-  <button class="accordion" >Nodes</button>
-    <div class="panel">
+      <h2 id="titleT"> Table of contents</h2>
       <div id="listed">
-        <li><a href="{{ "pages/nodes1" | relative_url}}"> Node1</a></li>
-        <li><a href="{{ "pages/nodes2" | relative_url}}"> Node2</a></li>
+        <ul><a href="{{ " index " | relative_url }}">Home</a></ul>
+      </div>
+      <div class="panel">
+      </div>
+
+      <div id="listed">
+        <ul><a href="{{ " pages/quickstartguide " | relative_url }}">Quickstart Guide</a></ul>
+      </div>
+      <div class="panel">
+      </div>
+      <div id="listed">
+        <ul><a href="{{ " pages/about " | relative_url }}">About</a></ul>
+      </div>
+
+
+      <button class="accordion">Nodes</button>
+      <div class="panel">
+        <div id="listed">
+          <li><a href="{{ " pages/nodes1 " | relative_url}}"> Node1</a></li>
+          <li><a href="{{ " pages/nodes2 " | relative_url}}"> Node2</a></li>
+        </div>
+      </div>
+      <div id="listed">
+        <ul><a href="{{ " index " | relative_url }}">Home</a></ul>
+      </div>
+      <div class="panel">
+      </div>
+
+      <div id="listed">
+        <ul><a href="{{ " pages/quickstartguide " | relative_url }}">Quickstart Guide</a></ul>
+      </div>
+      <div class="panel">
+      </div>
+      <div id="listed">
+        <ul><a href="{{ " pages/about " | relative_url }}">About</a></ul>
+      </div>
+
+
+      <button onclick="toggleLi()" class="accordion">Nodes</button>
+      <div class="panel">
+        <div id="listed">
+          <li><a href="{{ " pages/nodes1 " | relative_url}}"> Node1</a></li>
+          <li><a href="{{ " pages/nodes2 " | relative_url}}"> Node2</a></li>
+        </div>
       </div>
     </div>
-    <div id="listed">
-      <ul><a href="{{ "index" | relative_url }}">Home</a></ul>
-    </div>
-    <div class="panel">
-    </div>
 
-    <div id="listed">
-      <ul><a href="{{ "pages/quickstartguide" | relative_url }}">Quickstart Guide</a></ul>
-    </div>
-    <div class="panel">
-    </div>
-    <div id="listed">
-      <ul><a href="{{ "pages/about" | relative_url }}">About</a></ul>
-    </div>
-      
+    <div id="main">
+      <h1>GreenVulcano Documentation</h1>
+      <p>Click on the button below to read Documentation</p>
+      <button class="btn" onclick="openNav()">&#9776; See Documentation</button> {{ content }}
+</body>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
 
-  <button  onclick="toggleLi()" class="accordion" >Nodes</button>
-    <div class="panel">
-      <div id="listed">
-        <li><a href="{{ "pages/nodes1" | relative_url}}"> Node1</a></li>
-        <li><a href="{{ "pages/nodes2" | relative_url}}"> Node2</a></li>
-      </div>
-    </div>  
-   
-    </div>
-
-    <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].onclick = function() {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-          }
-        }
-      } 
-
-    </script>
-  <div id="main">
-    <h1>GreenVulcano Documentation</h1>
-    <p>Click on the button below to read Documentation</p>
-    <button class="btn" onclick="openNav()">&#9776; See Documentation</button> 
-    {{ content }}
-  </body>
+  for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    }
+  }
+</script>
