@@ -103,7 +103,7 @@
     </div>
       
 
-  <button onclick="toggleLi()" class="accordion" >Nodes</button>
+  <button class="accordion" >Nodes</button>
     <div class="panel">
       <div id="listed">
         <li><a href="{{ "pages/nodes1" | relative_url}}"> Node1</a></li>
@@ -137,7 +137,6 @@
     </div>
 
     <script>
-      function toggleLi(){
       var acc = document.getElementsByClassName("accordion");
       var i;
 
@@ -152,7 +151,6 @@
           }
         }
       } 
-    }
 
     </script>
 
