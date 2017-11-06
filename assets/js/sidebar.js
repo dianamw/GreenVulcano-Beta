@@ -8,7 +8,7 @@ function closeNav() {
 }*/
 
 $(document).ready(function(){
-        $(".slide-toggle").click(function(){
+        $("#slide-toggle").click(function(){
             $(".sidenav").animate({
                 width: "toggle"
             });
