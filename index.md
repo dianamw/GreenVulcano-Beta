@@ -1,4 +1,4 @@
-# Guida al Markdown
+# How to use Markdown
 ---
 layout: default
 ---
