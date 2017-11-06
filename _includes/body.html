@@ -62,6 +62,14 @@
         <button type="button" class="btn id="slide-toggle">See Documentation</button>{{ content }}
 </body>
 <script>
+  $(document).ready(function(){
+        $("#slide-toggle").click(function(){
+            $(".sidenav").animate({
+                width: "toggle"
+            });
+        });
+    });                                                       
+                                                          
   var acc = document.getElementsByClassName("accordion");
   var i;
 
