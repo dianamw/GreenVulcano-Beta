@@ -9,7 +9,6 @@ collections:
     title: Uploads
     output: true
 theme: jekyll-theme-cayman
-include:[_pages]
-permalink:"/nodes/"
+
 
 
