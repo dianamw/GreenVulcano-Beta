@@ -46,7 +46,8 @@
     font-size: 15px;
   }
 /* Prova */
-  button.accordion:after {
+  
+button.accordion:after {
     content: '\002B';
     color: #ffffff;
     font-weight: bold;
@@ -55,10 +56,9 @@
 }
 
 button.accordion.active:after {
+	 background-color: #124667;
     content: "\2212";
-    color:#ffffff;
 }
-
 /* Fine Prova */
 
   #listed ul {
