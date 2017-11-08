@@ -45,8 +45,7 @@
     padding: 18px;
     font-size: 15px;
   }
-/* Prova */
-  
+
 button.accordion:after {
     content: '\002B';
     color: #ffffff;
@@ -59,7 +58,6 @@ button.accordion.active:after {
 	 background-color: #124667;
     content: "\2212";
 }
-/* Fine Prova */
 
   #listed ul {
     list-style-type: none;
@@ -99,20 +97,8 @@ button.accordion.active:after {
     left: 0;
     background-color: #124667;
     overflow-x: hidden;
-    padding-top: 60px;
-}
-    
-    /*height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #124667;
-    overflow-x: hidden;
-    //transition: 0.5s;
-    padding-top: 60px;
-  }*/
+    padding-top: 30px;
+  }
 
   #titleT {
     color: #ffffff;
