@@ -84,6 +84,7 @@ button.accordion.active:after {
     width: 210px;
     background-color: #124667;
     max-height: 0;
+    margin-bottom: 10px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
