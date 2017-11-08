@@ -1,12 +1,12 @@
 <body>
-  <section class="page-header">
+  <section id="headerP"class="page-header">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
     <!-- <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1> -->
   </section>
   <section class="main-content">
 
     <div id="mySidenav" class="sidebar">
-      <p class="closebtn" onclick="closeNav()">&times;</a>
+      <!--<p class="closebtn" onclick="closeNav()">&times;</a>-->
       <h2 id="titleT"> Table of contents</h2>
       <div id="listed">
         <ul><a href="{{ "index " | relative_url }}">Home</a></ul>
@@ -67,6 +67,7 @@ function toggle(){
   if(!sidebar){
   		sidebar = true;
       document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("headerP").style.marginLeft = "250px";
     	document.getElementById("main").style.marginLeft = "250px";
        return;
   }
@@ -74,6 +75,7 @@ function toggle(){
   if(sidebar){
   	sidebar = false;
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("headerP").style.marginLeft = "0";
     document.getElementById("main").style.marginLeft= "0";
   	}
   }
