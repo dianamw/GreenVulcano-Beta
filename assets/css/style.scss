@@ -21,10 +21,10 @@
     padding: 16px;
     margin-left: 250px
 }
-/*@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}*/
+}
   button.accordion {
     background-color: #124667;
     color: #ffffff;
@@ -93,7 +93,7 @@ button.accordion.active:after {
     height: 100%;
     position: fixed;
     z-index: 1;
-    margin-left:0;
+    width:250px;
     top: 0;
     left: 0;
     background-color: #124667;
@@ -107,23 +107,3 @@ button.accordion.active:after {
     margin-left: 20px;
     font-size: 20px;
   }
-@media screen and (max-width: 600px) {
-		.sidebar {
-		    height: 100%;
-		    position: fixed;
-		    z-index: 1;
-		    width:0;
-		    top: 0;
-		    left: 0;
-		    background-color: #124667;
-		    overflow-x: hidden;
-		    padding-top: 30px;
- 			 }
-	
-		.btn {
-		    display: block;
-		    width: 60%;
-		    padding: 0.75rem;
-		    font-size: 0.9rem;
-		}
-}
