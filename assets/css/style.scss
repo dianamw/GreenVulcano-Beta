@@ -115,7 +115,7 @@ button.accordion.active:after {
 		    height: 100%;
 		    position: fixed;
 		    z-index: 1;
-		    width:150px;
+		    width:80px;
 		    top: 0;
 		    left: 0;
 		    background-color: #124667;
@@ -125,7 +125,7 @@ button.accordion.active:after {
 		#main {
 			transition: margin-left .5s;
 			padding: 16px;
-			margin-left: 150px;
+			margin-left: 80px;
 	}
 	
 		#headerP {
