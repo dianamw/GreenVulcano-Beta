@@ -109,7 +109,7 @@ button.accordion.active:after {
   }
 @media screen and (max-width: 600px) {
 		.sidebar {
-		    height: 10%;
+		    height: 100%;
 		    position: fixed;
 		    z-index: 1;
 		    width:100%;
@@ -119,10 +119,10 @@ button.accordion.active:after {
 		    overflow-x: hidden;
 		    padding-top: 30px;
  			 }
-	#main {
-    transition: margin-left .5s;
-    padding: 16px;
-    margin-left: 0;
+		#main {
+			transition: margin-left .5s;
+			padding: 16px;
+			margin-left: 0;
 	}
 	
 	
