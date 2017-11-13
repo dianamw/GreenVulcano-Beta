@@ -3,7 +3,7 @@ function toggle(){
   		sidebar = true;
         document.getElementById("mySidenav").style.width = "250px";
     	document.getElementById("main").style.marginLeft = "250px";
-    	document.getElementById("headerP").style.marginLeft = "250px";
+    	//document.getElementById("headerP").style.marginLeft = "250px";
     
        return;
   }
@@ -12,7 +12,7 @@ function toggle(){
   	sidebar = false;
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
-    document.getElementById("headerP").style.marginLeft = "0";
+   //document.getElementById("headerP").style.marginLeft = "0";
   	}
   }
 
