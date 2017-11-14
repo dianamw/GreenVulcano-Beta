@@ -151,8 +151,11 @@ button.accordion.active:after {
 
 @media screen and (max-width: 980px) {
 	.Button-blue{
-    background-color: #124667;
-    color: #fff;
-    margin-top:20px;
+    	background-color: #124667;
+    	color: #fff;
+    	margin-top:20px;
 }
+	.headerP{
+		margin-left:250px;
+	}
 }
