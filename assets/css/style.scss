@@ -129,16 +129,16 @@ button.accordion.active:after {
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
-    text-decoration: none;
+    //text-decoration: none;
     color: #000;
     border: 1px solid #000;
     border: .0625rem solid #000;
     border-radius: 4px;
-    outline: 0;
+    //outline: 0;
     background-color: transparent;
-    background-image: none;
-    box-shadow: none;
-    -webkit-appearance: none;
+    //background-image: none;
+    //box-shadow: none;
+    //-webkit-appearance: none;
 }
 .Button-blue{
     background-color: #124667;
