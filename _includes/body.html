@@ -65,15 +65,15 @@
 <script>
   var sidebar = false;
 function toggle(){
-  if(!sidebar){
-  		sidebar = true;
+  if(sidebar === true){
+  		//sidebar = true;
       document.getElementById("mySidenav").style.width = "250px";
       document.getElementById("main").style.marginLeft = "250px";
        return;
   }
   
-  if(sidebar){
-  	sidebar = false;
+  if(sidebar=== false){
+  	//sidebar = false;
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   	}
