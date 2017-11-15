@@ -63,7 +63,7 @@
 </body>
 <script>
   //script toggle sidebar
-  var sidebar;
+  var sidebar = false;
 function toggle(){
   if(!sidebar){
       sidebar = true;
@@ -73,7 +73,6 @@ function toggle(){
   }
   
   if(sidebar){
-    sidebar = false;
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   	}
