@@ -66,8 +66,7 @@
   //script toggle sidebar
   var sidebar = false;
 function toggle(){
-  if(!sidebar){
-    sidebar = true;
+  if(sidebar === true){
       document.getElementById("mySidenav").style.width = "250px";
       document.getElementById("main").style.marginLeft = "250px";
        return;
