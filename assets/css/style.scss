@@ -21,10 +21,10 @@
     padding: 16px;
     margin-left: 250px
 }
-/*@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}*/
+}
   button.accordion {
     background-color: #124667;
     color: #ffffff;
@@ -84,7 +84,6 @@ button.accordion.active:after {
     width: 210px;
     background-color: #124667;
     max-height: 0;
-    margin-bottom: 10px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
@@ -107,41 +106,3 @@ button.accordion.active:after {
     margin-left: 20px;
     font-size: 20px;
   }
-
-.Button {
-    font-size: 1pc;
-    font-size: 1rem;
-    line-height: 33px;
-    line-height: 2.0625rem;
-    display: inline-block;
-    box-sizing: border-box;
-    height: 35px;
-    height: 2.1875rem;
-    margin: 0;
-    padding: 0 1pc;
-    padding: 0 1rem;
-    cursor: pointer;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    color: #000;
-    border: 1px solid #000;
-    border: .0625rem solid #000;
-    border-radius: 4px;
-    background-color: transparent;
-}
-.Button-green{
-    background-color: #238650;
-    color: #fff;
-}
-
-@media screen and (max-width: 1024px) {
-	.Button-blue{
-    	background-color: #124667;
-    	color: #fff;
-    	margin-top: 10px;
-}
-	.page-header{
-		margin-left:250px;
-	}
-}
