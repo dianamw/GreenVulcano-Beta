@@ -1,13 +1,97 @@
 <body>
   <section class="page-header">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    <!-- <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1> -->
+  </section>
+  <section class="main-content">
+
+    <div id="mySidenav" class="sidebar">
+      <p class="closebtn" onclick="closeNav()">&times;</a>
+      <h2 id="titleT"> Table of contents</h2>
+      <div id="listed">
+        <ul><a href="{{ "index " | relative_url }}">Home</a></ul>
+      </div>
+      <div class="panel">
+      </div>
+
+      <div id="listed">
+        <ul><a href="{{ "pages/quickstartguide " | relative_url }}">Quickstart Guide</a></ul>
+      </div>
+      <!--<div class="panel">
+      </div>
+      <div id="listed">
+        <ul><a href="{{ "" | relative_url }}">About</a></ul>
+      </div> -->
+      
+      <button class="accordion">Nodes</button>
+      <div class="panel">
+        <div id="listed">
+          <li><a href="{{ "nodes/changeGVBuffer" | relative_url}}"> ChangeGVBuffer</a></li>
+          <li><a href="{{ "nodes/check" | relative_url}}"> Check </a></li>
+          <li><a href="{{ "" | relative_url}}"> ... </a></li>
+        </div>
+      </div>
+      <div id="listed">
+        <ul><a href="{{ ""| relative_url }}">Sample</a></ul>
+      </div>
+      <div class="panel">
+      </div>
+
+      <div id="listed">
+        <ul><a href="{{ "" | relative_url }}">Sample</a></ul>
+      </div>
+      <div class="panel">
+      </div>
+      <div id="listed">
+        <ul><a href="{{ "" | relative_url }}">Sample</a></ul>
+      </div>
+
+
+   <!-- <button class="accordion">Sample LI</button>
+      <div class="panel">
+        <div id="listed">
+          <li><a href="{{ "" | relative_url}}"> Sample</a></li>
+          <li><a href="{{ "" | relative_url}}"> Sample</a></li>
+        </div>
+      </div> -->
+    </div>
+
+    <div id="main">
+      <h1>GreenVulcano Documentation</h1>
+      <p>Click on the button below to read Documentation</p>
+      <button class="btn" onclick="openNav()">&#9776; See Documentation</button>
+      {{ content }}
+</body>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    }
+  }
+</script>
+
+
+
+
+
+<!--<body>
+  <section class="page-header">
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
     <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1>
   </section>
   <section class="main-content">
 
     <div id="mySidenav" class="sidebar">
       <!--<p class="closebtn" onclick="closeNav()">&times;</a>-->
-      <h2 id="titleT"> Table of contents</h2>
+     <!-- <h2 id="titleT"> Table of contents</h2>
       <div id="listed">
         <ul><a href="{{ "index " | relative_url }}">Home</a></ul>
       </div>
@@ -23,7 +107,7 @@
         <ul><a href="{{ "pages/about " | relative_url }}">About</a></ul>
       </div> -->
       
-      <button class="accordion">Nodes</button>
+     <!--<button class="accordion">Nodes</button>
       <div class="panel">
         <div id="listed">
           <li><a href="{{ "nodes/ChangeGVBuffer " | relative_url}}"> ChangeGVBuffer</a></li>
@@ -94,5 +178,5 @@ function toggle(){
       }
     }
   } 
-</script>
+</script> -->
 
