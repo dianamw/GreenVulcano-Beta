@@ -76,6 +76,21 @@
 	<!-- Fine Main -->
 </body>
 <script>
+function toggle(){
+  if(!sidebar){
+  		sidebar = true;
+        document.getElementById("mySidenav").style.width = "250px";
+    	document.getElementById("main").style.marginLeft = "250px";
+       return;
+  }
+  
+  if(sidebar){
+  	sidebar = false;
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  	}
+  }
+	
   var acc = document.getElementsByClassName("accordion");
   var i;
   for (i = 0; i < acc.length; i++) {
