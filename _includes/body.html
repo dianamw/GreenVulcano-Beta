@@ -13,11 +13,21 @@
 	  <!-- Inizio Sidebar Sections -->
 	  
 	  <!-- Home -->
-      <div id="listed">
+		<button class="accordion"><a href="{{ "index " | relative_url }}"><Home</a></button>
+      <div class="panel">
+        <div id="listed">
+          <li><a href="{{ "nodes/changeGVBuffer " | relative_url}}">What is GreenVulcano?</a></li>
+	  <li><a href="{{ "" | relative_url}}">Server</a></li>
+          <li><a href="{{ "nodes/check " | relative_url}}">Developer Studio</a></li>
+          <li><a href="{{ "" | relative_url}}">GV Console</a></li>
+	  
+        </div>
+      </div>
+      <!--<div id="listed">
         <ul><a href="{{ "index " | relative_url }}">Home</a></ul>
       </div>
       <div class="panel">
-      </div>
+      </div> -->
 	<!-- QuickStart Guide -->
       <div id="listed">
         <ul><a href="{{ "pages/quickstartguide " | relative_url }}">Quickstart Guide</a></ul>
