@@ -14,7 +14,7 @@
 	  <!-- Here starts sidebar's sections -->
 	  
 	  <!-- Home -->
-		<button class="accordion">Home</button>
+		<button class="accordion" onclick="{{ "nodes/ChangeGVBuffer" | relative_url}}">Home</button>
       <div class="panel">
         <div id="listed">
           <li><a href="{{ "" | relative_url}}">What is GreenVulcano?</a></li>
@@ -25,7 +25,7 @@
       </div>
 	<!-- QuickStart Guide and menu -->
 		<button class="accordion">Quickstart Guide</button>
-		<div class="panel"><a href="{{ "nodes/ChangeGVBuffer" | relative_url}}"></a>
+		<div class="panel">
         <div id="listed">
           <li><a href="{{ "" | relative_url}}">Developer Studio</a></li>
           <li><a href="{{ "" | relative_url}}"> Server & GV Console</a></li>
@@ -63,7 +63,7 @@
     <div id="main">
       <h1>GreenVulcano Documentation</h1>
       <p>Click on the button below to read Documentation</p>
-      <button class="Button Button-green" onclick="openNav(); "{{ "nodes/ChangeGVBuffer" | relative_url}}" ">&#9776; See Documentation</button>
+      <button class="Button Button-green" onclick="openNav();>&#9776; See Documentation</button>
       {{ content }}
 	<!-- Here ends the Main -->
 </body>
