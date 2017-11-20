@@ -23,7 +23,7 @@
         </div>
       </div>
 	<!-- QuickStart Guide and menu -->
-		<button class="accordion">Quickstart Guide</button>
+		<button id="link" class="accordion">Quickstart Guide</button>
       <div class="panel">
         <div id="listed">
           <li><a href="{{ "" | relative_url}}">Developer Studio</a></li>
@@ -89,6 +89,7 @@ var sidebar = false;
         panel.style.maxHeight = null;
       } else {
         panel.style.maxHeight = panel.scrollHeight + "px";
+	document.getElementById("link");
 	
       }
     }
