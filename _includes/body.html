@@ -8,7 +8,8 @@
   <section class="main-content">
 	<!-- Here starts the sidebar -->
 	<div id="mySidenav" class="sidebar">
-		<a href=""><img src="logoGV.png" alt="logo" border="0" /></a>
+		<img src="{{ logoGV | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+		{% endfor %}
 		<p class="closebtn" onclick="closeNav()">&times;</p>
       <h2 id="titleT"> Table of contents</h2>
 	  
