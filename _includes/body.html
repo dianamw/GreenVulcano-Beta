@@ -8,7 +8,9 @@
   <section class="main-content">
 	<!-- Here starts the sidebar -->
 	<div id="mySidenav" class="sidebar">
+		{% else %}
 		<img src="logo.png" height="100" width="200"{{ imagePath }}">
+		{% endif %}
 		<p class="closebtn" onclick="closeNav()">&times;</p>
       <h2 id="titleT"> Table of contents</h2>
 	  
