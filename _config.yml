@@ -9,6 +9,7 @@ collections:
     title: Uploads
     output: true
 theme: jekyll-theme-cayman
+images: assets/images/logoGV.png
 
 
 
