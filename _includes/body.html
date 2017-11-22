@@ -9,7 +9,6 @@
 	<!-- Here starts the sidebar -->
 	<div id="mySidenav" class="sidebar">
 		<img src="{{site.baseurl}}{{site.image}}" class="logo" />
-		<!--<img src="{{ site.image }}" alt="GreenVulcano" class="logo"  />-->
 		<p class="closebtn" onclick="closeNav()">&times;</p>
       <h2 id="titleT"> Table of contents</h2>
 	  
@@ -73,10 +72,12 @@
 	function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
+    document.getElementByClass("project-name").style.marginLeft = "250px";
 }
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
+    document.getElementByClass("project-name").style.marginLeft = "0";
 } 
 //script toggle sidebar
 var sidebar = false;
