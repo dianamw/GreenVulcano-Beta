@@ -1,3 +1,13 @@
+	function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementByClass("project-name").style.marginLeft = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.getElementByClass("project-name").style.marginLeft = "0";
+} 
 //script toggle sidebar
 var sidebar = false;
  function toggle(){
@@ -5,6 +15,7 @@ var sidebar = false;
        sidebar = true;
        document.getElementById("mySidenav").style.width = "250px";
        document.getElementById("main").style.marginLeft = "250px";
+       document.getElementByClass("project-name").style.marginLeft = "250px";
         return;
    }
    
@@ -12,9 +23,10 @@ var sidebar = false;
      sidebar = false;
      document.getElementById("mySidenav").style.width = "0";
      document.getElementById("main").style.marginLeft = "0";
+     document.getElementByClass("project-name").style.marginLeft = "0";
    	}
-   }
-   
+   } 
+  //script for accordion 
   var acc = document.getElementsByClassName("accordion");
   var i;
   for (i = 0; i < acc.length; i++) {
@@ -25,15 +37,9 @@ var sidebar = false;
         panel.style.maxHeight = null;
       } else {
         panel.style.maxHeight = panel.scrollHeight + "px";
+	document.getElementById("link");
+	
       }
     }
   }
 
-/*function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-} */
