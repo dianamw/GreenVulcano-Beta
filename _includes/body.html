@@ -6,8 +6,49 @@
   </section>
   <!--Wrapper-->
   <section class="main-content">
+	  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 col-xs-1 p-l-0 p-r-0 collapse in" id="sidebar">
+            <div class="list-group panel">
+                 <a href="#menu1sub1" class="list-group-item" style="font-size:20px">Table of Contents </a>
+                <a href="#menu1" class="list-group-item collapsed" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"> <span class="hidden-sm-down">Item 1</span> </a>
+                <div class="collapse" id="menu1">
+                    <a href="#menu1sub1" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem 1 </a>
+                    <div class="collapse" id="menu1sub1">
+                        <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem 1 a</a>
+                        <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem 2 b</a>
+                        <a href="#menu1sub1sub1" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem 3 c </a>
+                        <div class="collapse" id="menu1sub1sub1">
+                            <a href="#" class="list-group-item" data-parent="#menu1sub1sub1">Subitem 3 c.1</a>
+                            <a href="#" class="list-group-item" data-parent="#menu1sub1sub1">Subitem 3 c.2</a>
+                        </div>
+                        <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem 4 d</a>
+                        <a href="#menu1sub1sub2" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem 5 e </a>
+                        <div class="collapse" id="menu1sub1sub2">
+                            <a href="#" class="list-group-item" data-parent="#menu1sub1sub2">Subitem 5 e.1</a>
+                            <a href="#" class="list-group-item" data-parent="#menu1sub1sub2">Subitem 5 e.2</a>
+                        </div>
+                    </div>
+                    <a href="#" class="list-group-item" data-parent="#menu1">Subitem 2</a>
+                    <a href="#" class="list-group-item" data-parent="#menu1">Subitem 3</a>
+                </div>
+                <a href="#" class="list-group-item collapsed" data-parent="#sidebar"> <span class="hidden-sm-down">Item 2</span></a>
+                <a href="#menu3" class="list-group-item collapsed" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"> <span class="hidden-sm-down">Item 3 </span></a>
+                <div class="collapse" id="menu3">
+                    <a href="#" class="list-group-item" data-parent="#menu3">3.1</a>
+                    <a href="#menu3sub2" class="list-group-item" data-toggle="collapse" aria-expanded="false">3.2 </a>
+                    <div class="collapse" id="menu3sub2">
+                        <a href="#" class="list-group-item" data-parent="#menu3sub2">3.2 a</a>
+                        <a href="#" class="list-group-item" data-parent="#menu3sub2">3.2 b</a>
+                        <a href="#" class="list-group-item" data-parent="#menu3sub2">3.2 c</a>
+                    </div>
+                    <a href="#" class="list-group-item" data-parent="#menu3">3.3</a>
+                </div>
+                
+            </div>
+        </div>
 	<!-- Here starts the sidebar -->
-	<div id="mySidenav" class="sidebar">
+	<!--<div id="mySidenav" class="sidebar">
 		<img src="{{site.baseurl}}{{site.image}}" class="logo" />
 		<p class="closebtn" onclick="closeNav()">&times;</p>
       <h2 id="titleT"> Table of contents</h2>
@@ -16,34 +57,34 @@
 	  
 	  <!-- Home -->
 		<button class="accordion"><span><a href="{{ "nodes/ChangeGVBuffer" | relative_url}}"></a></span>Home</button>
-      <div class="panel">
+      <!--<div class="panel">
         <div id="listed">
           <li><a href="{{ "nodes/ChangeGVBuffer" | relative_url}}">What is GreenVulcano?</a></li>
 	  <li><a href="{{ "" | relative_url}}">Server</a></li>
           <li><a href="{{ "" | relative_url}}">Developer Studio</a></li>
           <li><a href="{{ "" | relative_url}}">GV Console</a></li>  
         </div>
-      </div>
+      </div>-->
 	<!-- QuickStart Guide and menu -->
-		<button class="accordion">Quickstart Guide</button>
+		<!--<button class="accordion">Quickstart Guide</button>
 		<div class="panel">
         <div id="listed">
           <li><a href="{{ "" | relative_url}}">Developer Studio</a></li>
           <li><a href="{{ "" | relative_url}}"> Server & GV Console</a></li>
         </div>
-      </div>
+      </div>-->
 	<!-- Course and menu -->
-	<button class="accordion">Course</button>
+	<!--<button class="accordion">Course</button>
       <div class="panel">
         <div id="listed">
           <li><a href="{{ "" | relative_url}}">Service Examples</a></li>
           <li><a href="{{ "" | relative_url}}"> Nodes</a></li>
 	  <li><a href="{{ "" | relative_url}}"> Operations</a></li>
         </div>
-      </div>
+      </div>-->
 	
 	<!-- QuickStart Guide and menu -->
-      <button class="accordion">Quickstart Guide</button>
+      <!--<button class="accordion">Quickstart Guide</button>
       <div class="panel">
         <div id="listed">
           <li><a href="{{ "" | relative_url}}">Developer Studio</a></li>
@@ -55,10 +96,10 @@
           <li><a href="{{ "" | relative_url}}"></a></li>
           <li><a href="{{ "" | relative_url}}"></a></li>
         </div>
-      </div>
+      </div>-->
 	
 	<!-- Here ends the Sidebar -->
-    </div>
+    <!</div> -->
 	
 	<!-- Here starts the Main -->
     <div id="main">
