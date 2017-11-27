@@ -2,6 +2,9 @@
 <!-- Header Logo GreenVulcano -->
   <section class="page-header">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+	  <div class="toolbar">
+		<button class="btn" onclick="openNav()">&#9776;</button>
+	</div>
     <!-- <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1> -->
   </section>
   <!--Wrapper-->
@@ -54,8 +57,8 @@
 	<!-- Here starts the Main -->
     <div id="main">
       <h1>GreenVulcano Documentation</h1>
-      <p>Click on the button below to read Documentation</p>
-      <button class="Button Button-green" onclick="openNav()">&#9776; See Documentation</button>
+      <!--<p>Click on the button below to read Documentation</p>
+      <button class="Button Button-green" onclick="openNav()">&#9776; See Documentation</button>-->
       {{ content }}
 	<!-- Here ends the Main -->
 </body>
