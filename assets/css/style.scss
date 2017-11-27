@@ -5,10 +5,6 @@
 
 
 /**** Sidebar ****/
-button a {
- color: #ffffff;	
-}
-
   body {
     font-family: sans-serif;
   }
@@ -30,6 +26,18 @@ button a {
     padding: 16px;
     margin-left: 250px
 }
+
+.toolbar{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    padding: 17px 20px 20px 20px;
+    padding-right: 0;
+    text-align: left;
+    font-size: 13px;
+    top: 10px;
+    left: 0px;
+	}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
