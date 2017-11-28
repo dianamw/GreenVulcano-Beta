@@ -3,7 +3,7 @@
   <section class="page-header">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
 	  <div class="toolbar">
-		<button class="btn" onclick="openNav()">&#9776;</button>
+		<button class="btn" onclick="toggle()">&#9776;</button>
 	</div>
     <!-- <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1> -->
   </section>
@@ -12,7 +12,7 @@
 	<!-- Here starts the sidebar -->
 	<div id="mySidenav" class="sidebar">
 		<a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.image}}" style="width:180px; height:80px" class="logo" /></a>
-		<button class="btn closebtn" onclick="closeNav()">☰</button>
+		<button class="btn closebtn" onclick="toggle()">☰</button>
       <h2 id="titleT"> Table of contents</h2>
 	  
 	  <!-- Here starts sidebar's sections -->
