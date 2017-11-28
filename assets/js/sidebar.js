@@ -15,7 +15,7 @@ var sidebar = false;
        sidebar = true;
        document.getElementById("mySidenav").style.width = "250px";
        document.getElementById("main").style.marginLeft = "250px";
-       document.getElementByClass("project-name").style.marginLeft = "250px";
+       document.getElementByClass("page-header").style.marginLeft = "250px";
         return;
    }
    
@@ -23,7 +23,7 @@ var sidebar = false;
      sidebar = false;
      document.getElementById("mySidenav").style.width = "0";
      document.getElementById("main").style.marginLeft = "0";
-     document.getElementByClass("project-name").style.marginLeft = "0";
+     document.getElementByClass("page-header").style.marginLeft = "0";
    	}
    } 
   //script for accordion 
