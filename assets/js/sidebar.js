@@ -1,13 +1,4 @@
-	function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-    document.getElementByClass("project-name").style.marginLeft = "250px";
-}
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-    document.getElementByClass("project-name").style.marginLeft = "0";
-} 
+
 //script toggle sidebar
 var sidebar = false;
  function toggle(){
