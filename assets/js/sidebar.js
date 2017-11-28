@@ -10,7 +10,7 @@ var sidebar = false;
         return;
    }
    
-   else (sidebar){
+   else if (sidebar){
      sidebar = false;
      document.getElementById("mySidenav").style.width = "0";
      document.getElementById("main").style.marginLeft = "0";
