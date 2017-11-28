@@ -147,15 +147,11 @@ button.accordion.active:after {
 	 border-radius: 4px;
 	 background-color: transparent;
  }
- .Button-green{
-   background-color: #238650;
-   color: #fff;
- }*/
- 
- @media screen and (max-width: 1024px) {
- 	.Button-blue{
-     	background-color: #124667;
-    	color: #fff;
-    	margin-top: 10px;
-	 }
- }
+ @media screen and (max-width: 42em){
+	.project-name {
+	    font-size: 1.75rem;
+	    margin-left: 50px;
+	}
+	.main-content {
+	    margin-left: 50px;
+}
