@@ -18,7 +18,7 @@ var sidebar = false;
    	}
    } 
   //script for accordion 
-  /*var acc = document.getElementsByClassName("accordion");
+  var acc = document.getElementsByClassName("accordion");
   var i;
   for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function() {
@@ -32,8 +32,8 @@ var sidebar = false;
 	
       }
     }
-  }*/
-var acc = document.getElementsByClassName("accordion");
+  }
+/*var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -46,5 +46,5 @@ for (i = 0; i < acc.length; i++) {
             panel.style.display = "block";
         }
     }
-}
+}*/
 
