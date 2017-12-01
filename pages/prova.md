@@ -4,4 +4,4 @@ document.getElementById("demo").innerHTML = d.toDateString();
 </script></span>
 <span>
 
-<style="color:red"> and <font color="red">
+<font color="#124667"><b>Ciao</b></font>
