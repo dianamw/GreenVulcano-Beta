@@ -33,6 +33,8 @@ var sidebar = false;
       }
     }
   }
+
+document.getElementById("path").innerHTML =  window.location.href;
 /*var acc = document.getElementsByClassName("accordion");
 var i;
 
