@@ -1,57 +1,70 @@
 <body>
 <!-- Header Logo GreenVulcano -->
   <section class="page-header">
-    <h1 class="project-name">GreenVulcano Documentation</h1>
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
 	  <div class="toolbar">
-		<button class="btn" onclick="toggle()">☰</button>
+		<button class="btn" onclick="openNav()">&#9776;</button>
 	</div>
-    <!-- <h1 class="project-tagline"></h1> -->
+    <!-- <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1> -->
   </section>
   <!--Wrapper-->
   <section class="main-content">
 	<!-- Here starts the sidebar -->
 	<div id="mySidenav" class="sidebar">
-		<a href="/GreenVulcano-Beta"><img src="/GreenVulcano-Beta/assets/images/prova.png" style="width:180px; height:80px" class="logo"></a>
-		<button class="btn closebtn" onclick="toggle()"><i class="fa fa-angle-left"></i></button>
+		<a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.image}}" class="logo" /></a>
+		<button class="btn closebtn" onclick="closeNav()"><i class="fa fa-angle-left"></i></button>
       <h2 id="titleT"> Table of contents</h2>
 	  
 	  <!-- Here starts sidebar's sections -->
 	  
 	  <!-- Home -->
-		<button id="btnAcc" class="accordion active">Home</button>
+		<button class="accordion">Home</button>
       <div class="panel">
         <div id="listed">
-          <li><a href="/GreenVulcano-Beta/pages/prova">What is GreenVulcano?</a></li>
-	  <li><a href="/GreenVulcano-Beta/home/greenVulcano_server">GreenVulcano Server</a></li>
-          <li><a href="/GreenVulcano-Beta/home/developer_studio">Developer Studio</a></li>
-          <li><a href="/GreenVulcano-Beta/home/GVConsole">GV Console</a></li>  
+          <li><a href="{{ "home/what_is_GreenVulcano" | relative_url}}">What is GreenVulcano?</a></li>
+	  <li><a href="{{ "home/greenVulcano_server" | relative_url}}">GreenVulcano Server</a></li>
+          <li><a href="{{ "home/developer_studio" | relative_url}}">Developer Studio</a></li>
+          <li><a href="{{ "home/GVConsole" | relative_url}}">GV Console</a></li>  
         </div>
       </div>
 	<!-- QuickStart Guide and menu -->
-      <button id="btnAcc" class="accordion active">Quickstart Guide</button>
+      <button class="accordion">Quickstart Guide</button>
       <div class="panel">
         <div id="listed">
-          <li><a href="/GreenVulcano-Beta">Developer Studio</a></li>
-          <li><a href="/GreenVulcano-Beta"> Server &amp; GV Console</a></li>
+          <li><a href="{{ "" | relative_url}}">Developer Studio</a></li>
+          <li><a href="{{ "" | relative_url}}"> Server & GV Console</a></li>
         </div>
       </div>
 	<!-- Course and menu -->
-	<button id="btnAcc" class="accordion active">Course</button>
+	<button class="accordion">Course</button>
       <div class="panel">
         <div id="listed">
-          <li><a href="/GreenVulcano-Beta">Service Examples</a></li>
-	  <li><a href="/GreenVulcano-Beta"> Operations</a></li>
+          <li><a href="{{ "" | relative_url}}">Service Examples</a></li>
+	  <li><a href="{{ "" | relative_url}}"> Operations</a></li>
+        </div>
+      </div>
+	<!-- Nodes -->
+	<button class="accordion">Nodes</button>
+      <div class="panel">
+        <div id="listed">
+          <li><a href="{{ "nodes/check" | relative_url}}">Check</a></li>
+	  <li><a href="{{ "nodes/changeGVBuffer" | relative_url}}">Change GVBuffer</a></li>
+	  <li><a href="{{ "nodes/Iterator_Call" | relative_url}}"></a>Iterator Call</li>
+	  <li><a href="{{ "nodes/Iterator_CoreCall" | relative_url}}"></a>Iterator CoreCall</li>
+	  <li><a href="{{ "nodes/Iterator_Enqueue" | relative_url}}"></a>Iterator Enqueue</li>
+	  <li><a href="{{ "nodes/Iterator_SubFlowCall" | relative_url}}"></a>Iterator SubFlowCall</li>
         </div>
       </div>
 	<!-- What's new -->	
-      	<button id="btnAcc" class="accordion active">What's new</button>
+      	<button class="accordion">What's new</button>
       <div class="panel">
         <div id="listed">
-          <li><a href="/GreenVulcano-Beta/pages/newdeploy">ALPHA1: deploy</a></li>
+          <li><a href="{{ "pages/newdeploy" | relative_url}}">ALPHA1: deploy</a></li>
 	</div>
 </div>
 	<!-- Here ends the Sidebar -->
     </div>
+	
 	<!-- Here starts the Main -->
     <div id="main">
       {{ content }}
