@@ -34,7 +34,7 @@ var sidebar = false;
     }
   }
 
-document.getElementById("path").innerHTML =  window.location.href;
+document.getElementById("path").innerHTML =  window.location.pathname;
 /*var acc = document.getElementsByClassName("accordion");
 var i;
 
