@@ -1,6 +1,6 @@
 
 //script toggle sidebar
-var sidebar = false;
+/*var sidebar = false;
  function toggle(){
    if(!sidebar){
        sidebar = true;
@@ -16,9 +16,9 @@ var sidebar = false;
      document.getElementById("main").style.marginLeft = "0";
      document.getElementByClass("page-header").style.marginLeft = "0";
    	}
-   } 
+   } */
   //script for accordion 
-  var acc = document.getElementsByClassName("accordion");
+  /*var acc = document.getElementsByClassName("accordion");
   var i;
   for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function() {
@@ -32,7 +32,7 @@ var sidebar = false;
 	
       }
     }
-  }
+  }*/
 	/*$(document).ready(function() {
 		    $('#sidebarCollapse').on('click', function() {
 		      $('#sidebar').toggleClass('active');
@@ -41,7 +41,7 @@ var sidebar = false;
 
 	$(document).ready( function(){
 	$("#sidebarCollapse").click( function() {
-  	var toggleWidth = $("#sidebar, #main").width() == 250 ? "0" : "250px";
+  	var toggleWidth = $("#sidebar, #main").width() == 300 ? "0" : "300px";
     	$('#sidebar, #main').animate({ width: toggleWidth});
   });
 });
