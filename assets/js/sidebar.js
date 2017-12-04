@@ -33,7 +33,11 @@ var sidebar = false;
       }
     }
   }
-
+  $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+              $('#sidebar').toggleClass('active');
+            });
+          });
 document.getElementById("path").innerHTML =  window.location.pathname;
 /*var acc = document.getElementsByClassName("accordion");
 var i;
