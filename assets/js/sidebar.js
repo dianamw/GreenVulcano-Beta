@@ -39,6 +39,13 @@ var sidebar = false;
 		    });
 		  });
 
+	$(document).ready( function(){
+	$("#sidebarCollapse").click( function() {
+  	var toggleWidth = $("#sidebar").width() == 250 ? "0" : "250px";
+    	$('#sidebar').animate({ width: toggleWidth});
+  });
+});
+
 	$(document).ready(function () {
 	  location.hash && $(location.hash + '.collapse').collapse('show');
 	});
