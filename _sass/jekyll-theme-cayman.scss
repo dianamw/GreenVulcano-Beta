@@ -41,7 +41,7 @@ a {
   }
 }
 
-.btn {
+.btn-blue{
   display: inline-block;
   margin-bottom: 1rem;
   color: $btn-font-color;
@@ -52,7 +52,7 @@ a {
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
-  + .btn {
+  + .btn-blue {
     margin-left: 1rem;
   }
 
@@ -71,7 +71,7 @@ a {
     padding: 0.75rem;
     font-size: 0.7rem;
 
-    + .btn {
+    + .btn-blue {
       margin-top: 1rem;
       margin-left: 0;
     }
