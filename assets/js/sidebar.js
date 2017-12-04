@@ -33,16 +33,16 @@ var sidebar = false;
       }
     }
   }
-	$(document).ready(function() {
+	/*$(document).ready(function() {
 		    $('#sidebarCollapse').on('click', function() {
 		      $('#sidebar').toggleClass('active');
 		    });
-		  });
+		  }); */
 
 	$(document).ready( function(){
 	$("#sidebarCollapse").click( function() {
-  	var toggleWidth = $("#sidebar").width() == 250 ? "0" : "250px";
-    	$('#sidebar').animate({ width: toggleWidth});
+  	var toggleWidth = $("#sidebar, #main").width() == 250 ? "0" : "250px";
+    	$('#sidebar, #main').animate({ width: toggleWidth});
   });
 });
 
