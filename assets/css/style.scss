@@ -142,11 +142,19 @@ a.article, a.article:hover {
     color: #fff !important;
 }
 
+.closebtn {	  
+    position: absolute;
+    top: 0px;
+    right: 12px;
+    margin-top: 30px;
+    font-size: 11px;
+    color: #ffffff;
+    margin-left: 50px;
+}
 
 
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
+
+/* --- Main Style --- */
 #main {
     /*padding: 20px;
     min-height: 100vh;
@@ -157,9 +165,7 @@ a.article, a.article:hover {
     margin-left: 250px
 }
 
-/* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
+/* --- Mediaqueries --- */
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
