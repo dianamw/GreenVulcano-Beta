@@ -42,7 +42,7 @@
 	$(document).ready( function(){
 	$("#sidebarCollapse,#closeSidebar").click( function() {
   	var toggleWidth = $("#sidebar, #main").width() == 280 ? "0" : "280px";
-    	$('#sidebar, #main').animate({ width: toggleWidth});
+    	$('#sidebar, #main').animate({ width: toggleWidth},100);
   });
 });
 
