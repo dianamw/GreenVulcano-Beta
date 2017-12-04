@@ -40,8 +40,8 @@
 		  }); */
 
 	$(document).ready( function(){
-	$("#sidebarCollapse").click( function() {
-  	var toggleWidth = $("#sidebar, #main").width() == 300 ? "0" : "300px";
+	$("#sidebarCollapse,#closeSidebar").click( function() {
+  	var toggleWidth = $("#sidebar, #main").width() == 280 ? "0" : "280px";
     	$('#sidebar, #main').animate({ width: toggleWidth});
   });
 });
