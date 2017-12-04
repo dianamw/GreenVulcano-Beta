@@ -33,12 +33,16 @@ var sidebar = false;
       }
     }
   }
-  $(document).ready(function() {
-            $('#sidebarCollapse').on('click', function() {
-              $('#sidebar').toggleClass('active');
-            });
-          });
-document.getElementById("path").innerHTML =  window.location.pathname;
+	$(document).ready(function() {
+		    $('#sidebarCollapse').on('click', function() {
+		      $('#sidebar').toggleClass('active');
+		    });
+		  });
+
+	$(document).ready(function () {
+	  location.hash && $(location.hash + '.collapse').collapse('show');
+	});
+/*document.getElementById("path").innerHTML =  window.location.pathname;*/
 /*var acc = document.getElementsByClassName("accordion");
 var i;
 
