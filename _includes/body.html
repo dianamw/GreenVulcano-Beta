@@ -23,17 +23,17 @@
         <li>
           <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
           <ul class="collapse list-unstyled" id="homeSubmenu">
-            <li><a href="#">What is GreenVulcano?</a></li>
-            <li><a href="#">GreenVulcano Server</a></li>
-            <li><a href="#">Developer Studio</a></li>
-            <li><a href="#">GV Console</a></li>
+            <li><a href="{{ "" | relative_url}}">What is GreenVulcano?</a></li>
+            <li><a href={{ "" | relative_url}}>GreenVulcano Server</a></li>
+            <li><a href={{ "" | relative_url}}>Developer Studio</a></li>
+            <li><a href={{ "" | relative_url}}>GV Console</a></li>
           </ul>
         </li>
         <li>
           <a href="#quickstart" data-toggle="collapse" aria-expanded="false">Quickstart Guide</a>
           <ul class="collapse list-unstyled" id="quickstart">
-            <li><a href="#">Developer Studio</a></li>
-            <li><a href="#">GV Console</a></li>
+            <li><a href={{ "" | relative_url}}>Developer Studio</a></li>
+            <li><a href={{ "" | relative_url}}>GV Console</a></li>
           </ul>
         </li>
         <li>
@@ -43,23 +43,23 @@
               <div id="submenu">
                 <ul class="collapse list-unstyled" id="nodes">
                   <li><a href="{{ "nodes/change" | relative_url}}">Check</a></li>
-                  <li><a href="#">Change GVBuffer</a></li>
-                  <li><a href="#">Iterator Call</a></li>
-                  <li><a href="#">Iterator CoreCall</a></li>
-                  <li><a href="#">Iterator Enqueue</a></li>
-                  <li><a href="#">Iterator SubFlowCall</a></li>
+                  <li><a href="{{ "" | relative_url}}">Change GVBuffer</a></li>
+                  <li><a href={{ "" | relative_url}}">Iterator Call</a></li>
+                  <li><a href={{ "" | relative_url}}">Iterator CoreCall</a></li>
+                  <li><a href={{ "" | relative_url}}">Iterator Enqueue</a></li>
+                  <li><a href={{ "" | relative_url}}">Iterator SubFlowCall</a></li>
             </li>
             </ul>
             </div>
-            <li><a href="#">Placeholders</a></li>
-            <li><a href="#">Operations</a></li>
+            <li><a href={{ "" | relative_url}}">Placeholders</a></li>
+            <li><a href={{ "" | relative_url}}">Operations</a></li>
           </ul>
         </li>
 
         <li>
           <a href="#new" data-toggle="collapse" aria-expanded="false">What's new?</a>
           <ul class="collapse list-unstyled" id="new">
-            <li><a href="#">ALPHA1: deploy</a></li>
+            <li><a href={{ "" | relative_url}}">ALPHA1: deploy</a></li>
           </ul>
         </li>
       </ul>
@@ -69,7 +69,7 @@
 	
 	<!-- Here starts the Main -->
     <div id="main">
-	    <h3 id="path"></h3>
+	    <!--<h3 id="path"></h3>-->
       {{ content }}
 	<!-- Here ends the Main -->
 </body>
