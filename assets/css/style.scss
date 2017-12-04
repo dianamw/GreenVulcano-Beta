@@ -147,9 +147,13 @@ a.article, a.article:hover {
     CONTENT STYLE
 ----------------------------------------------------- */
 #main {
-    padding: 20px;
+    /*padding: 20px;
     min-height: 100vh;
-    transition: all 0.3s;
+    transition: all 0.3s;*/
+	
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 250px
 }
 
 /* ---------------------------------------------------
