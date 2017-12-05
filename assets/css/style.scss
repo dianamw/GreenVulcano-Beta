@@ -83,6 +83,7 @@ a, a:hover, a:focus {
     color: #ffffff;
     display: block;
 }
+
 #sidebar ul li a:hover {
     color: #124467;
     background: #fff;
@@ -108,18 +109,17 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     font-family: 'Glyphicons Halflings';
     font-size: 0.6em;
 }
+
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
-
-
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 50px !important;
     background: #124667;
 }
 
-ul.CTAs {
+/*ul.CTAs {
     padding: 20px;
 }
 
@@ -140,7 +140,7 @@ a.article, a.article:hover {
     background: #6d7fcc !important;
     color: #fff !important;
 }
-
+*/
 .closebtn {	  
     position: absolute;
     top: 0px;
@@ -198,115 +198,3 @@ a.article, a.article:hover {
         display: none;
     }
 }
-
- /* .closebtn {	  
-    position: absolute;
-    top: 0px;
-    right: 12px;
-    margin-top: 30px;
-    font-size: 11px;
-    color: #ffffff;
-    margin-left: 50px;
-}
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-    margin-left: 250px
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-  button.accordion {
-    background-color: #124667;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 5px;
-    width: 180px;
-    margin-left: 35px;
-    margin-bottom: 15px;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-  .accordion {
-    color: #ffffff;
-    margin-left:20px;
-    padding: 18px;
-    font-size: 15px;
-  }
-
-button.accordion:after {
-    content: '\002B';
-    color: #ffffff;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-button.accordion.active:after {
-	 background-color: #124667;
-    content: "\2212";
-}
-
-  #listed ul {
-    list-style-type: none;
-  }
-       
-  #listed li {
-    list-style-type:none;
-    margin-left:70px;
-  }
-
-  #listed a {
-    color: #ffffff;
-    font-size: 15px;
-    text-decoration: none;
-  }
-
-  button.accordion.active,
-  button.accordion:hover {
-  background-color: #124667;
-  }
-       
-  div.panel {
-    padding: 0 20;
-    background-color: #124667;
-    max-height: 0;
-    overflow: hidden;
-    margin-bottom:10px;
-    transition: max-height 0.2s ease-out;
-  }
-
-  .sidebar {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    width:250px;
-    top: 0;
-    left: 0;
-    background-color: #124667;
-    overflow-x: hidden;
-    padding-top: 30px;
-  }
-
-  #titleT {
-    color: #ffffff;
-    padding-top: 5px;
-    margin-left: 20px;
-    font-size: 20px;
-  }
-
-@media screen and (max-width: 42em){
-	.project-name {
-	    font-size: 1.75rem;
-	    margin-left: 50px;
-	}
-	.main-content {
-	    margin-left: 50px;
-	 }
-}
-*/
