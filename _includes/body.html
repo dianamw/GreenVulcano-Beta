@@ -3,7 +3,7 @@
   <section class="page-header">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
 	  <div class="toolbar">
-		  <button type="button" id="sidebarCollapse" class="btn-blue">&#9776;
+		  <button type="button" id="sidebarCollapse" onclick= "openNav()" class="btn-blue">&#9776;
                       </button>
 		  
 	</div>
@@ -18,7 +18,7 @@
 	    <!-- Logo -->
       <a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.image}}" style="height:80px; width:180px; padding:5px; margin:10px"/></a>
       	    <!-- Toggle button -->
-	    <button type="button" id="closeSidebar" class="btn-blue closebtn">
+	    <button type="button" id="closeSidebar" onclick="closeNav()" class="btn-blue closebtn">
                           <i class="glyphicon glyphicon-chevron-left"></i>
                           <span></span>
                       </button>
