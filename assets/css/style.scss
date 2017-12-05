@@ -5,6 +5,7 @@
 
 
 /**** Sidebar ****/
+
   html {
     font-size:15px;
 }
@@ -93,9 +94,17 @@ a, a:hover, a:focus {
     color: #fff;
     background: #124667;
 }
+
 #submenu {
   margin-left:40px;
 }
+
+#title-sidebar {
+    color: #ffffff;
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -113,34 +122,14 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
+
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 50px !important;
     background: #124667;
 }
 
-/*ul.CTAs {
-    padding: 20px;
-}
-
-ul.CTAs a {
-    text-align: center;
-    font-size: 0.9em !important;
-    display: block;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
-
-a.article, a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
-}
-*/
+/*-- Close Button Style --*/
 .closebtn {	  
     position: absolute;
     top: 0px;
@@ -162,25 +151,15 @@ a.article, a.article:hover {
     top: 10px;
     left: 0px;
 	}
+/*--- Logo ---*/
 .logo {
     width: 180px;
     height: 80px;
     margin-left: 10px;
 }
 
- #title-sidebar {
-    color: #ffffff;
-    padding-top: 5px;
-    margin-left: 20px;
-    font-size: 20px;
-  }
-
 /* --- Main Style --- */
 #main {
-    /*padding: 20px;
-    min-height: 100vh;
-    transition: all 0.3s;*/
-	
     transition: margin-left .5s;
     padding: 16px;
     margin-left: 250px
