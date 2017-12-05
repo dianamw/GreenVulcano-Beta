@@ -37,15 +37,20 @@
 		    $('#sidebarCollapse').on('click', function() {
 		      $('#sidebar').toggleClass('active');
 		    });
-		  }); */
+		  });
 
 	$(document).ready( function(){
 	$("#sidebarCollapse,#closeSidebar").click( function() {
   	var toggleWidth = $("#sidebar, #main").width() == 280 ? "0" : "280px";
     	$('#sidebar, #main').animate({ width: toggleWidth},100);
   });
+});*/
+	$(document).ready(function () {
+	  if (location.hash){
+	    $(location.hash).collapse('show');
+	    $(location.hash).parents('.accordion-body').collapse('show');
+  }
 });
-
 	/*$(document).ready(function () {
 	  location.hash && $(location.hash + '.collapse').collapse('show');
 	});*/
