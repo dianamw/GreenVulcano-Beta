@@ -15,22 +15,27 @@
 	<div class="wrapper">
     <!-- Sidebar Holder -->
     <nav id="sidebar">
+	    <!-- Logo -->
       <a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.image}}" style="height:80px; width:180px; padding:5px; margin:10px"/></a>
-      <button type="button" id="closeSidebar" class="btn-blue closebtn">
+      	    <!-- Toggle button -->
+	    <button type="button" id="closeSidebar" class="btn-blue closebtn">
                           <i class="glyphicon glyphicon-chevron-left"></i>
                           <span></span>
                       </button>
       <ul class="list-unstyled components">
+	<!--Sidebar Title -->
         <p id="title-sidebar">Table of Contents</p>
+	<!-- Home -->
         <li>
-          <a href="{{ "pages/home#home" | relative_url}}" data-target="#home" data-toggle="collapse" aria-expanded="false">Home</a>
+          <a href="#home" data-toggle="collapse" aria-expanded="false">Home</a>
           <ul class="collapse list-unstyled" id="home">
-            <li><a href="{{"pages/what_is_greenVulcano#home" | relative_url}}">What is GreenVulcano?</a></li>
-            <li><a href="{{ "pages/greenvulcano_server#home" | relative_url}}">GreenVulcano Server</a></li>
-            <li><a href={{ "" | relative_url}}>Developer Studio</a></li>
-            <li><a href={{ "" | relative_url}}>GV Console</a></li>
+            <li><a href="{{ "home/what_is_GreenVulcano" | relative_url}}">What is GreenVulcano?</a></li>
+	  <li><a href="{{ "home/greenVulcano_server" | relative_url}}">GreenVulcano Server</a></li>
+          <li><a href="{{ "home/developer_studio" | relative_url}}">Developer Studio</a></li>
+          <li><a href="{{ "home/GVConsole" | relative_url}}">GV Console</a></li>  
           </ul>
         </li>
+	<!-- Quickstart Guide -->
         <li>
           <a href="#quickstart" data-toggle="collapse" aria-expanded="false">Quickstart Guide</a>
           <ul class="collapse list-unstyled" id="quickstart">
@@ -38,8 +43,10 @@
             <li><a href={{ "" | relative_url}}>GV Console</a></li>
           </ul>
         </li>
+	<!-- Course -->
         <li>
           <a href="#course" data-toggle="collapse" aria-expanded="false">Course</a>
+	  <!-- Nodes submenu -->
           <ul class="collapse list-unstyled" id="course">
             <li><a href="#nodes" data-toggle="collapse" aria-expanded="false">Nodes</a>
               <div id="submenu">
@@ -47,23 +54,24 @@
 			<div class="accordion-body in collapse" style="height: auto;">
                   <li><a href="{{ "nodes/change#nodes" | relative_url}}">Check</a></li>
                   <li><a href="{{ "" | relative_url}}">Change GVBuffer</a></li>
-                  <li><a href={{ "" | relative_url}}">Iterator Call</a></li>
-                  <li><a href={{ "" | relative_url}}">Iterator CoreCall</a></li>
-                  <li><a href={{ "" | relative_url}}">Iterator Enqueue</a></li>
-                  <li><a href={{ "" | relative_url}}">Iterator SubFlowCall</a></li>
+                  <li><a href="{{ "" | relative_url}}">Iterator Call</a></li>
+                  <li><a href="{{ "" | relative_url}}">Iterator CoreCall</a></li>
+                  <li><a href="{{ "" | relative_url}}">Iterator Enqueue</a></li>
+                  <li><a href="{{ "" | relative_url}}">Iterator SubFlowCall</a></li>
 			</div>
             </li>
             </ul>
             </div>
-            <li><a href="{{ "pages/placeholders#course" | relative_url}}">Placeholders</a></li>
-            <li><a href={{ "" | relative_url}}">Operations</a></li>
+            <li>
+		<a href="{{ "course/placeholders" | relative_url}}">Placeholders</a></li>
+	    <li><a href="{{ "" | relative_url}}"> Operations</a></li>
           </ul>
         </li>
-
+	<!-- What's new -->
         <li>
           <a href="#new" data-toggle="collapse" aria-expanded="false">What's new?</a>
           <ul class="collapse list-unstyled" id="new">
-            <li><a href={{ "" | relative_url}}">ALPHA1: deploy</a></li>
+            <li><a href="{{ "pages/newdeploy" | relative_url}}">ALPHA1: deploy</a></li>
           </ul>
         </li>
       </ul>
