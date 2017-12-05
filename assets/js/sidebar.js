@@ -7,7 +7,7 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
 } 
 //script toggle sidebar
-/*var sidebar = false;
+var sidebar = false;
  function toggle(){
    if(!sidebar){
        sidebar = true;
@@ -23,7 +23,7 @@ function closeNav() {
      document.getElementById("main").style.marginLeft = "0";
      document.getElementByClass("page-header").style.marginLeft = "0";
    	}
-   } */
+   } 
   //script for accordion 
   /*var acc = document.getElementsByClassName("accordion");
   var i;
