@@ -46,9 +46,9 @@
   });
 });
 
-	$(document).ready(function () {
+	/*$(document).ready(function () {
 	  location.hash && $(location.hash + '.collapse').collapse('show');
-	});
+	});*/
 /*document.getElementById("path").innerHTML =  window.location.pathname;*/
 /*var acc = document.getElementsByClassName("accordion");
 var i;
