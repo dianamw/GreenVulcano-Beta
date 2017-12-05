@@ -1,9 +1,9 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "280px";
+    document.getElementById("sidebar").style.width = "280px";
     document.getElementById("main").style.marginLeft = "280px";
 }
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("sidebar").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
 } 
 //script toggle sidebar
