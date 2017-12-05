@@ -168,7 +168,7 @@ ul ul a {
 /* --- Mediaqueries --- */
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: 0px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -176,4 +176,7 @@ ul ul a {
     #sidebarCollapse span {
         display: none;
     }
+    .main-content {
+	margin-left: 30px;
+	}
 }
