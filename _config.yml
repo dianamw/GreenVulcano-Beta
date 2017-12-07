@@ -10,6 +10,11 @@ collections:
     output: true
 theme: jekyll-theme-cayman
 image: /assets/images/prova.png
+# Assets Pipeline
+assets:
+  sources:
+    - _assets
+    - _assets/fonts
 
 
 
