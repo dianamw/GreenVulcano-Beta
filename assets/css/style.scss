@@ -185,6 +185,17 @@ ul ul a {
   margin-right: 4px;
 }
 
+.glyphicon-chevron-up {
+	&:before { 
+		content: "\e113";
+	} 
+}
+.glyphicon-chevron-down { 
+	&:before {
+		content: "\e114"; 
+	}
+}
+
 /* --- Mediaqueries --- */
 @media (max-width: 768px) {
     #sidebar {
