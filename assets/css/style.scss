@@ -1,7 +1,6 @@
 ---
 ---
 @import "bootstrap";
-@import "bootstrap/glyphicons";
 @import "{{ site.theme }}";
 
 
@@ -182,7 +181,6 @@ ul ul a {
   font: normal normal 16px/1 'Glyphicons Halflings';
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  margin-right: 4px;
 }
 
 .glyphicon-chevron-up {
