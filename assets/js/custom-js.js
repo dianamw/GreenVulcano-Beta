@@ -14,7 +14,4 @@ $(document).ready(function () {
 	    $(location.hash).parents('.accordion-body').collapse('show');
   }
 });
-//Animation Script
-AOS.init({
-  duration: 1200,
-})
+
