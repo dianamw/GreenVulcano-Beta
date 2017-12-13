@@ -1,6 +1,6 @@
 ---
 title: GreenVulcano Server
-permalink: mypageurl.html
+permalink: default.html
 ---
 # GreenVulcano Server 
 
