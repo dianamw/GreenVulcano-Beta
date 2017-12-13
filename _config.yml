@@ -9,15 +9,12 @@ collections:
     title: Uploads
     output: true
 theme: jekyll-theme-cayman
-permalink: home
+permalink: /:categories/:year/:month/:day/:title/
 image: /assets/images/prova.png
 owner_url: 
   url: http://www.greenvulcanotechnologies.com/
 # Assets Pipeline
-assets:
-  sources:
-    - _assets
-    - _assets/fonts
+
 
 
 
