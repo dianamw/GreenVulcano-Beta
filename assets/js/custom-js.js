@@ -8,9 +8,20 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
 }
 //Hash
-$(document).ready(function () {
-    if(location.hash != null && location.hash != ""){
-        $('.collapse').removeClass('in');
-        $(location.hash + '.collapse').collapse('show');
-    }
+jQuery(document).ready(function($) {
+
+ /* open panel when linked from external link */
+  location.hash && $(location.hash + '.collapse').collapse('show');
+
+
+  /* open panel when linked from same page - requires double click?? */
+        $("#").on("click", function() {
+    		location.hash && $(location.hash + '.collapse').collapse('show');
+		});
+
+	/* ensure any open panels are closed before showing selected */
+		$('.accordion-group').on('show.bs.collapse', function () {
+    		$('.accordion-group .in').collapse('hide');
+		});
+		
 });
