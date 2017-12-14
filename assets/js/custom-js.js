@@ -10,6 +10,6 @@ function closeNav() {
 //Hash
 jQuery(document).ready(function($) {
 
-$(.accordion).on("click", function() {
+$(ul li).on("click", function() {
     		location.hash && $(location.hash + '.collapse').collapse('show');
 	)};
