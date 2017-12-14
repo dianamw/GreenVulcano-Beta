@@ -9,9 +9,8 @@ function closeNav() {
 }
 //Hash
 $(document).ready(function () {
-	  if (location.hash){
-	    $(location.hash).collapse('show');
-	    $(location.hash).parents('.accordion-body').collapse('show');
-  }
+    if(location.hash != null && location.hash != ""){
+        $('.collapse').removeClass('in');
+        $(location.hash + '.collapse').collapse('show');
+    }
 });
-
