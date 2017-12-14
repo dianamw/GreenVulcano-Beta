@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 theme: jekyll-theme-cayman
-permalink: /pages/
+permalink: /pages
 image: /assets/images/prova.png
 owner_url: 
   url: http://www.greenvulcanotechnologies.com/
