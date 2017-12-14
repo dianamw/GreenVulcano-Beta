@@ -8,8 +8,10 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
 }
 //Hash
-jQuery(document).ready(function($) {
-
-$(ul li).on("click", function() {
-    		location.hash && $(location.hash + '.collapse').collapse('show');
-	)};
+if(window.location.hash)
+{
+    // hash found
+    var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+    alert (hash);
+    document.getElementById(hash).classList.toggle('in');
+}
