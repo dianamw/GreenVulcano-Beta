@@ -10,7 +10,6 @@ function closeNav() {
 //Hash
 jQuery(document).ready(function($) {
 
- /* open panel when linked from external link */
-  location.hash && $(location.hash + '.collapse').collapse('show');
-		
-});
+$(.accordion).on("click", function() {
+    		location.hash && $(location.hash + '.collapse').collapse('show');
+	)};
