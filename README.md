@@ -1,3 +1,0 @@
-# GreenVulcano-Beta
-
-read.me
