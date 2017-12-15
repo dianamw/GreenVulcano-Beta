@@ -10,7 +10,7 @@ collections:
     output: true
 theme: jekyll-theme-cayman
 image: /assets/images/prova.png
-layout: README.md
+layout: prova.md
 owner_url: 
   url: http://www.greenvulcanotechnologies.com/
 
