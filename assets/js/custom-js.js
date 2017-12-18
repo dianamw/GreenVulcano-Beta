@@ -13,5 +13,6 @@ if(window.location.hash)
     // hash found
     var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
     alert (hash);
-    document.getElementById(hash).classList.toggle('in');
+    if (hash == 'nodes') $('#course #nodes').attr("aria-expanded","true");
+    alert (hash);
 }
