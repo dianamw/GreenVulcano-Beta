@@ -50,7 +50,7 @@ a, a:hover, a:focus {
     height: 100%;
     position: fixed;
     z-index: 1;
-    width: 300px;
+    width: 280px;
     top: 0;
     left: 0;
     background-color: #124667;
@@ -96,7 +96,7 @@ a, a:hover, a:focus {
 }
 
 #submenu {
-  margin-left:40px;
+  padding-left:20px;
 }
 
 #title-sidebar {
@@ -124,7 +124,7 @@ a[aria-expanded="true"]::before {
 }
 
 ul ul a {
-    font-size: 1em !important;
+    font-size: 0.9em !important;
     padding-left: 50px !important;
     background: #124667;
 }
@@ -153,10 +153,9 @@ ul ul a {
 	}
 /*--- Logo ---*/
 .logo {
-    width: 200px;
-    height: 100px;
-    margin: 10px;
-    padding: 5px;
+    width: 180px;
+    height: 80px;
+    margin-left: 10px;
 }
 
 /* --- Main Style --- */
@@ -198,29 +197,14 @@ ul ul a {
 /* --- Mediaqueries --- */
 @media (max-width: 768px) {
     #sidebar {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    width: 220px;
-    top: 0;
-    left: 0;
-    background-color: #124667;
-    overflow-x: hidden;
-    padding-top: 30px;
+        margin-left: 0px;
     }
-    .logo {
-	height: 80px;
-	width: 160px;
-	padding: 5px;
-	margin-top: 30px;
-	}
-		
-    /*#sidebar.active {
+    #sidebar.active {
         margin-left: 0;
     }
     #sidebarCollapse span {
         display: none;
-    }*/
+    }
     .main-content {
 	margin-left: 30px;
 	}
