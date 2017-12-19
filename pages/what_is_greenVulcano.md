@@ -5,11 +5,11 @@ As an analogy, GreenVulcano can be the swiss knife to use in the integration jun
 **The ESB GreenVulcano approach**  
 Having to deal with an extensive amount of business components, the so called "spaghetti" solution becomes hard to extend and maintain.  
 
-<div class="image" data-aos="fade-right"><img src="../assets/images/Spaghetti_SOA.png" width="100%"><h4>Spaghetti SOA</h4></div>
+<div class="image" data-aos="fade-right"><img src="assets/images/Spaghetti_SOA.png" width="100%"><h4>Spaghetti SOA</h4></div>
 
 Instead, within a [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture "SOA Wiki") context, where business logic is executed from a group of software components, an ESB as GV is capable of ensure interoperability between different types of systems, using an easily expandable set of architectural components.  
 
-<div class="image" data-aos="fade-left"><img src="../assets/images/SOA.png" width="100%"></div>
+<div class="image" data-aos="fade-left"><img src="assets/images/SOA.png" width="100%"></div>
 
 GreenVulcano suite comprehends 3 different software components, to use in the different project lifecycle contexts (development, usage, administration):
   * [**GreenVulcano Developer Studio**](https://greenvulcano.github.io/gv-documentation/home/developer_studio), used as a service designing tool allows to develop and test the business services, using its unique framework capabilities
