@@ -13,7 +13,7 @@ if(window.location.hash)
     // hash found
     var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
     alert (hash);
-    if(hash = 'course'){
-        $('#nodes').attr('aria-expanded', 'true');
+    if(hash = 'nodes'){
+        $('#course, #nodes').attr('aria-expanded', 'true');
     }
 }
