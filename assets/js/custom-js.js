@@ -14,6 +14,6 @@ if(window.location.hash)
     var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
     alert (hash);
     if(hash = 'nodes'){
-        $('#course').attr('aria-expanded', 'true');
+        $('#course, #nodes').attr('aria-expanded', 'true');
     }
 }
