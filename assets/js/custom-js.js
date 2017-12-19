@@ -15,4 +15,5 @@ if(window.location.hash)
     alert (hash);
     if(hash = 'course'){
         $('#nodes').attr('aria-expanded', 'true');
+    }
 }
