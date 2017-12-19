@@ -11,7 +11,7 @@ $(document).ready(function () {
     var hash = location.hash;
 	  if (hash){
 	    $(hash).collapse('show');
-		  $(hash).parents('.submenu').collapse('show');
+		  $(hash).parents('.collapse').addClass('in');
   }
 });
 
