@@ -10,7 +10,7 @@ collections:
     output: true
 theme: jekyll-theme-cayman
 images: /assets/images
-image: /assets/images/prova.png
+logo: /assets/images/prova.png
 permalink: pretty
 owner_url: 
   url: http://www.greenvulcanotechnologies.com/
