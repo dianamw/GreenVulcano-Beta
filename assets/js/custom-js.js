@@ -8,10 +8,10 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
 }*/
 
-$('button').toggle(
+$('button').onclick(
 
 function() {
-    $('#sidebar').css('right', '0')
+    $('#sidebar').css('width', '0')
 }, function() {
     $('#main').css('right', '0')
 })
