@@ -154,7 +154,7 @@ This name must indicate a transformation currently configured in GVDTE.
 This parameter can be optional if the input GVBuffer has a property with the name map-name.  
 
 The following table shows the map-name-param element's attributes: 
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -178,7 +178,7 @@ The following table shows the map-name-param element's attributes:
     <td>Specifies the name of the transformation that should apply by GVDTE. <br>This name must indicate a transformation currently configured in GVDTE.</td>
   </tr>
 </table>
-</p> 
+</div>
 
 <p><font color="#238650"> gvdte-context-call </font></p> 
 Communication parameters to interact with GVDTE.  
