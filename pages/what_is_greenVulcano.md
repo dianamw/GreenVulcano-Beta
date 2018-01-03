@@ -30,8 +30,9 @@ For example, if the node indicates a receive a message (see attribute op-type), 
 
 The **GVOperationNode** is a Flow element that extends FlowNode. It has the following attributes:
 
-  <div markdown="1" data-aos="fade-left">
+  
 <table>
+  <div markdown="1" data-aos="fade-left">
   <tr>
     <th>Attribute</th>
     <th>Type</th>
