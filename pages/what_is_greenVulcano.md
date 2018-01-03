@@ -106,7 +106,6 @@ ___
 Invokes the Data Transformation Engine (GVDTE). Refer to the documentation GVDTE for information on features of ![GreenVulcano® ESB](https://greenvulcano.github.io/gv-documentation/) Data Transformation Engine.  
 The following table shows the gvdte-service element's attributes: 
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -137,7 +136,6 @@ The attribute's default value is: <b>yes</b>.</td>
 The attribute's default value is: <b>yes</b>.</td>
   </tr>
 </table>
-    </div>
 </p> 
 
 Its sub-elements are:
@@ -153,7 +151,6 @@ This parameter can be optional if the input GVBuffer has a property with the nam
 
 The following table shows the map-name-param element's attributes: 
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -176,15 +173,13 @@ The following table shows the map-name-param element's attributes:
     <td>required</td>
     <td>Specifies the name of the transformation that should apply by GVDTE. <br>This name must indicate a transformation currently configured in GVDTE.</td>
   </tr>
-</table> 
-    </div>
+</table>
 </p> 
 
 <p><font color="#238650"> gvdte-context-call </font></p> 
 Communication parameters to interact with GVDTE.  
 The following table shows the gvdte-context-call element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -207,15 +202,13 @@ The following table shows the gvdte-context-call element's attributes:
     <td>required</td>
     <td>ID used for diagnostics. Is printed on the log files.</td>
   </tr>
-</table> 
-    </div>
+</table>
 </p> 
 
 <p><font color="#238650"> gvdte-extra-param </font></p>  
 Allows you to specify additional parameters for the transformation GVDTE must apply.  
 The following table shows the gvdte-extra-param element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -239,8 +232,7 @@ The following table shows the gvdte-extra-param element's attributes:
     <td>Parameter value. The value of this attribute can be static or can be interpreted dynamically, as the value of a metadata expression that also employee the input GVBuffer.
 </td>
   </tr>
-</table> 
-</div>
+</table>
 </p> 
 
 <p><font color="#238650"><b> xml-validation-service </b></font></p>  
@@ -248,7 +240,6 @@ ___
 Invokes the XML validation engine.  
 The following table shows the xml-validation-service element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -266,7 +257,6 @@ The following table shows the xml-validation-service element's attributes:
     <td>This attribute must assume the value <b>yes</b>.</td>
   </tr>
 </table>
-    </div>
 </p> 
 
 Its sub-elements are:
@@ -277,7 +267,6 @@ Its sub-elements are:
 Communication parameters to interact with XML validation engine.  
 The following table shows the xml-validation-call element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -315,7 +304,6 @@ The attribute's value can't be null. </td>
 The same object is returned if input already is a DOM Document. Default is 'false'.</td>
   </tr>
 </table>
-    </div>
 </p>
 
 Its sub-elements are:
@@ -327,7 +315,6 @@ ___
 Internal service useful to execute OGNL scripts on GVBuffer instances.  
 The following table shows the ognl-script-service element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -351,7 +338,6 @@ The following table shows the ognl-script-service element's attributes:
 The attribute's default value is: <b>yes</b>.</td>
   </tr>
 </table>
-    </div>
 </p>
 
 Its sub-elements are:
@@ -362,7 +348,6 @@ Its sub-elements are:
 VCL Operation useful to execute OGNL scripts on GVBuffer instances.  
 The following table shows the ognl-script-call element's attributes: 
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -385,7 +370,6 @@ The following table shows the ognl-script-call element's attributes:
     <td>Operation identifier. The attribute's value can't be null.</td>
   </tr>
 </table>
-    </div>
 </p>
 
 Its sub-elements are:
@@ -397,7 +381,6 @@ ___
 Internal service useful to execute JavaScript scripts on GVBuffer instances.  
 The following table shows the java-script-service element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -420,8 +403,7 @@ The following table shows the java-script-service element's attributes:
     <td>Defines if the service is critical. A critical service failure mark the entire communication as failed.
 The attribute's default value is: yes.</td>
   </tr>
-</table> 
-    </div>
+</table>
 </p>
 
 Its sub-elements are:
@@ -432,7 +414,6 @@ Its sub-elements are:
 VCL Operation useful to execute JavaScript scripts on GVBuffer instances.  
 The following table shows the java-script-call element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -455,7 +436,6 @@ The following table shows the java-script-call element's attributes:
     <td>Operation identifier. The attribute's value can't be null.</td>
   </tr>
 </table>
-    </div>
 </p>
 
 Its sub-elements are:
@@ -467,7 +447,6 @@ ___
 Internal service useful to set **DBOBuilder** name to call at **dh-call** operations. Useful only as **InputService** of **GVOperationNode** that references a dh-call operation.  
 The following table shows the dh-selector-service element's attributes:  
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -491,7 +470,6 @@ The following table shows the dh-selector-service element's attributes:
 The attribute's default value is: yes.</td>
   </tr>
 </table>
-    </div>
 </p>
 
 Its sub-elements are:
@@ -502,7 +480,6 @@ Its sub-elements are:
 VCL Operation useful to set **DBOBuilder** name to call contained in a **dh-call** operation.  
 The following table shows the dh-selector-call element's attributes: 
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -529,8 +506,7 @@ The following table shows the dh-selector-call element's attributes:
     <td>required</td>
     <td>DBOBuilder name. The attribute's value can't be null.</td>
   </tr>
-</table> 
-    </div>
+</table>
 </p>
 
 Its sub-elements are:
@@ -541,7 +517,6 @@ ___
 Internal service useful to execute scripts on GVBuffer instances. 
 The following table shows the script-service element's attributes:
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -565,7 +540,6 @@ The following table shows the script-service element's attributes:
 The attribute's default value is: yes.</td>
   </tr>
 </table>
-    </div>
 </p>
 
 Its sub-elements are:
@@ -576,7 +550,6 @@ Its sub-elements are:
 VCL Operation useful to execute scripts on GVBuffer instances.  
 The following table shows the script-call element's attributes: 
 <p>
-  <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -598,8 +571,7 @@ The following table shows the script-call element's attributes:
     <td>required</td>
     <td>Operation identifier. The attribute's value can't be null.</td>
   </tr>
-</table> 
-</div>
+</table>
 </p>
 
 Its sub-elements are:
