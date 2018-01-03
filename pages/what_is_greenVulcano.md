@@ -108,7 +108,8 @@ ___
 ___
 Invokes the Data Transformation Engine (GVDTE). Refer to the documentation GVDTE for information on features of ![GreenVulcano® ESB](https://greenvulcano.github.io/gv-documentation/) Data Transformation Engine.  
 The following table shows the gvdte-service element's attributes: 
-<p>
+
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -139,7 +140,7 @@ The attribute's default value is: <b>yes</b>.</td>
 The attribute's default value is: <b>yes</b>.</td>
   </tr>
 </table>
-</p> 
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
