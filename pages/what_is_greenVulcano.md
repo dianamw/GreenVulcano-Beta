@@ -183,7 +183,7 @@ The following table shows the map-name-param element's attributes:
 <p><font color="#238650"> gvdte-context-call </font></p> 
 Communication parameters to interact with GVDTE.  
 The following table shows the gvdte-context-call element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -207,12 +207,12 @@ The following table shows the gvdte-context-call element's attributes:
     <td>ID used for diagnostics. Is printed on the log files.</td>
   </tr>
 </table>
-</p> 
+</div> 
 
 <p><font color="#238650"> gvdte-extra-param </font></p>  
 Allows you to specify additional parameters for the transformation GVDTE must apply.  
 The following table shows the gvdte-extra-param element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -237,13 +237,13 @@ The following table shows the gvdte-extra-param element's attributes:
 </td>
   </tr>
 </table>
-</p> 
+</div>
 
 <p><font color="#238650"><b> xml-validation-service </b></font></p>  
 ___
 Invokes the XML validation engine.  
 The following table shows the xml-validation-service element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -261,7 +261,7 @@ The following table shows the xml-validation-service element's attributes:
     <td>This attribute must assume the value <b>yes</b>.</td>
   </tr>
 </table>
-</p> 
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -270,7 +270,7 @@ Its sub-elements are:
 <p><font color="#238650"> xml-validation-call </font></p>  
 Communication parameters to interact with XML validation engine.  
 The following table shows the xml-validation-call element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -308,7 +308,7 @@ The attribute's value can't be null. </td>
 The same object is returned if input already is a DOM Document. Default is 'false'.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -318,7 +318,7 @@ Its sub-elements are:
 ___
 Internal service useful to execute OGNL scripts on GVBuffer instances.  
 The following table shows the ognl-script-service element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -342,7 +342,7 @@ The following table shows the ognl-script-service element's attributes:
 The attribute's default value is: <b>yes</b>.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -351,7 +351,7 @@ Its sub-elements are:
 <p><font color="#238650"> ognl-script-call </font></p>  
 VCL Operation useful to execute OGNL scripts on GVBuffer instances.  
 The following table shows the ognl-script-call element's attributes: 
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -374,7 +374,7 @@ The following table shows the ognl-script-call element's attributes:
     <td>Operation identifier. The attribute's value can't be null.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -384,7 +384,7 @@ Its sub-elements are:
 ___
 Internal service useful to execute JavaScript scripts on GVBuffer instances.  
 The following table shows the java-script-service element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -408,7 +408,7 @@ The following table shows the java-script-service element's attributes:
 The attribute's default value is: yes.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -417,7 +417,7 @@ Its sub-elements are:
 <p><font color="#238650"> java-script-call </font></p>
 VCL Operation useful to execute JavaScript scripts on GVBuffer instances.  
 The following table shows the java-script-call element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -440,7 +440,7 @@ The following table shows the java-script-call element's attributes:
     <td>Operation identifier. The attribute's value can't be null.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -450,7 +450,7 @@ Its sub-elements are:
 ___
 Internal service useful to set **DBOBuilder** name to call at **dh-call** operations. Useful only as **InputService** of **GVOperationNode** that references a dh-call operation.  
 The following table shows the dh-selector-service element's attributes:  
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -474,7 +474,7 @@ The following table shows the dh-selector-service element's attributes:
 The attribute's default value is: yes.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -483,7 +483,7 @@ Its sub-elements are:
 <p><font color="#238650"> dh-selector-call </font></p>
 VCL Operation useful to set **DBOBuilder** name to call contained in a **dh-call** operation.  
 The following table shows the dh-selector-call element's attributes: 
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -511,7 +511,7 @@ The following table shows the dh-selector-call element's attributes:
     <td>DBOBuilder name. The attribute's value can't be null.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -520,7 +520,7 @@ Its sub-elements are:
 ___
 Internal service useful to execute scripts on GVBuffer instances. 
 The following table shows the script-service element's attributes:
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -544,7 +544,7 @@ The following table shows the script-service element's attributes:
 The attribute's default value is: yes.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650"> Description </font>
@@ -553,7 +553,7 @@ Its sub-elements are:
 <p><font color="#238650"> script-call </font></p>
 VCL Operation useful to execute scripts on GVBuffer instances.  
 The following table shows the script-call element's attributes: 
-<p>
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Attribute</th>
@@ -576,7 +576,7 @@ The following table shows the script-call element's attributes:
     <td>Operation identifier. The attribute's value can't be null.</td>
   </tr>
 </table>
-</p>
+</div>
 
 Its sub-elements are:
 * <font color="#238650">Description</font>
