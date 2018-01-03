@@ -8,7 +8,8 @@ Using the right mouse button you can edit/add operations or InputServices Output
 
 ### Developer Studio (VulCon)/GV Console configuration
 ___
-  
+
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Operation node</th>
@@ -21,8 +22,9 @@ ___
     <td>Allows to perform a communication with an external systems (invocation, sending messages, receiving messages). <br>
 Its op-type parameter will be setted to enqueue.</td>
   </tr>
-  </div>
 </table>
+
+  </div>
     
   
 
