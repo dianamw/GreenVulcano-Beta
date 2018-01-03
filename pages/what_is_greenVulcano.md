@@ -9,6 +9,7 @@ Using the right mouse button you can edit/add operations or InputServices Output
 ### Developer Studio (VulCon)/GV Console configuration
 ___
 
+<div markdown="1" data-aos="fade-left">
 <table>
   <tr>
     <th>Operation node</th>
@@ -22,6 +23,7 @@ ___
 Its op-type parameter will be setted to enqueue.</td>
   </tr>
   </table>
+  </div>
 
 A **GVOperationNode** is an operation node indicating that ![GreenVulcano® ESB](https://greenvulcano.github.io/gv-documentation/) must perform a communication with an external systems (invocation, sending messages, receiving messages).  
 For example, if the node indicates a receive a message (see attribute op-type), you can also define a DequeueFilter that sets certain conditions that the received message must meet.  
