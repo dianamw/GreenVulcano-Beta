@@ -30,7 +30,7 @@ A **GVOperationNode** is an operation node indicating that ![GreenVulcano® ESB]
 For example, if the node indicates a receive a message (see attribute op-type), you can also define a DequeueFilter that sets certain conditions that the received message must meet.  
 
 The **GVOperationNode** is a Flow element that extends FlowNode. It has the following attributes:
-<p>
+
   <div markdown="1" data-aos="fade-left">
 <table>
   <tr>
@@ -62,7 +62,7 @@ The attribute value can't be null.</td>
   </tr>
 </table>
     </div>
-</p> 
+    <br>
 
 and the subelements:
 * <font color="#238650"> InputServices </font>
