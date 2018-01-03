@@ -61,9 +61,9 @@ The attribute value can't be null.</td>
     <td>required</td>
     <td>Identifies the communication operation selected by the channel of the system indicated by the <em>id-system</em> attribute. <br>Only the operations of the type declared in the 'op-type' attribute can be selected. <br>Its value cannot be null.</td>
   </tr>
-</table>
     </div>
-    <br>
+</table>
+    
 
 and the subelements:
 * <font color="#238650"> InputServices </font>
