@@ -1,21 +1,13 @@
-//Sidebar Open-Close Script
-function openNav() {
-    document.getElementById("sidebar").style.width = "280px";
-    document.getElementById("main").style.marginLeft = "280px";
-}
-function closeNav() {
-    document.getElementById("sidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-}
+$(document).ready(function () {
+        var url = window.location;
+    // Will only work if string in href matches with location
+        $('ul.nav a[href="' + url + '"]').parent().addClass('active');
 
-$('button').onclick(
-
-function() {
-    $('#sidebar').css('width', '0')
-}, function() {
-    $('#main').css('right', '0')
-})
-
+    // Will also work for relative and absolute hrefs
+        $('ul.nav a').filter(function () {
+            return this.href == url;
+        }).parent().addClass('active').parent().parent().addClass('active');
+    });
 
 $(document).ready(function () {
     //fetch hash in a variable
