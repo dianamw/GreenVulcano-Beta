@@ -2,11 +2,11 @@
 <!-- Header Logo GreenVulcano -->
   <section class="page-header">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-	  <div class="toolbar">
+	 <!-- <div class="toolbar">
 		  <button type="button" id="sidebarCollapse" onclick= "openNav()" class="btn-blue">&#9776;
                       </button>
 		  
-	</div>
+	</div>-->
     <!-- <h1 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h1> -->
   </section>
   <!--Wrapper-->
@@ -16,77 +16,89 @@
     <!-- Sidebar Holder -->
     <nav id="sidebar">
 	    <!-- Logo -->
-      <a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.logo}}" class="logo" style="height:100px; width:200px; padding:5px; margin:10px"/></a>
+      <a href="{{site.baseurl}}"><img src="{{site.baseurl}}{{site.logo}}" class="logo" /></a>
       	    <!-- Toggle button -->
-	    <button type="button" id="closeSidebar" onclick="closeNav()" class="btn-blue closebtn">
+	    <!--<button type="button" id="closeSidebar" onclick="closeNav()" class="btn-blue closebtn">
                           <i class="glyphicon glyphicon-chevron-left"></i>
                           <span></span>
-                      </button>
-	    <div class="accordion">
+                      </button>-->
       <ul class="list-unstyled components">
-	<!--Sidebar Title -->
-        <p id="title-sidebar">Table of Contents</p>
 	<!-- Home -->
         <li>
           <a href="#home" data-toggle="collapse" aria-expanded="false">Home</a>
           <ul class="collapse list-unstyled" id="home">
-          <li><a href="{{ "pages/what_is_greenVulcano/#home" | relative_url}}">What is GreenVulcano?</a></li>
-	  <li><a href="{{ "pages/home/greenVulcano_Server" | relative_url}}">GreenVulcano Server</a></li>
-          <li><a href="{{ "home/Developer_Studio#home" | relative_url}}">Developer Studio</a></li>
-          <li><a href="{{ "home/GVConsole#home" | relative_url}}">GV Console</a></li>  
+          <li><a href="{{ "home/What_is_GreenVulcano/#home" | relative_url}}">What is GreenVulcano?</a></li>
+	  <li><a href="{{ "home/Integration_made_easy/#home" | relative_url}}">Integration made easy</a></li>
+	  <li><a href="{{ "home/GreenVulcano_Server/#home" | relative_url}}">GreenVulcano Server</a></li>
+          <li><a href="{{ "home/Developer_Studio/#home" | relative_url}}">Developer Studio</a></li>
+          <li><a href="{{ "home/GVConsole/#home" | relative_url}}">GV Console</a></li>  
           </ul>
         </li>
+	<!-- Installation -->
+        <li>
+          <a href="#installation" data-toggle="collapse" aria-expanded="false">Installation</a>
+          <ul class="collapse list-unstyled" id="installation">
+            <li><a href="{{ "installation/Installation/#installation" | relative_url}}">Installation GV</a></li>
+          </ul>
+        </li>  
 	<!-- Quickstart Guide -->
         <li>
           <a href="#quickstart" data-toggle="collapse" aria-expanded="false">Quickstart Guide</a>
           <ul class="collapse list-unstyled" id="quickstart">
-            <li><a href={{ "" | relative_url}}>Developer Studio</a></li>
-            <li><a href={{ "" | relative_url}}>GV Console</a></li>
+            <li><a href="{{ "quickstart_Guide/Quickstart/#quickstart" | relative_url}}">Quickstart</a></li>
+            <li><a href="{{ "quickstart_Guide/Developer_Studio_2.0/#quickstart" | relative_url}}">Developer Studio 2.0</a></li>
+	    <li><a href="{{ "quickstart_Guide/GreenVulcano_Server_And_Gvconsole/#quickstart" | relative_url}}">GreenVulcano Server and GVConsole</a></li>
           </ul>
         </li>
 	<!-- Course -->
         <li>
           <a href="#course" data-toggle="collapse" aria-expanded="false">Course</a>
-	  <!-- Nodes submenu -->
           <ul class="collapse list-unstyled" id="course">
+		  <li><a href="{{ "course/Service_Examples/#course" | relative_url}}">Service Examples</a></li>
+	    	  <li><a href="{{ "course/Setup_of_a_new_DB_connection/#course" | relative_url}}">Setup of a new DB connection</a></li>
+	<!-- Nodes submenu -->
             <li><a href="#nodes" data-toggle="collapse" aria-expanded="false">Nodes</a>
               <div id="submenu">
                 <ul class="collapse list-unstyled" id="nodes">
 			<div class="accordion-body in collapse" style="height: auto;">
-                  <li><a href="{{ "pages/nodes/Change_GVBuffer/#nodes" | relative_url}}">Check</a></li>
-                  <li><a href="{{ "pages/nodes/Change_GVBuffer/#nodes" | relative_url}}">Change GVBuffer</a></li>
-		  <li><a href="{{ "nodes/End" | relative_url}}">End</a></li>
-                  <li><a href="{{ "nodes/Iterator_Call" | relative_url}}">Iterator Call</a></li>
-                  <li><a href="{{ "nodes/Iterator_CoreCall" | relative_url}}">Iterator CoreCall</a></li>
-                  <li><a href="{{ "nodes/Iterator_Enqueue" | relative_url}}">Iterator Enqueue</a></li>
-                  <li><a href="{{ "nodes/Iterator_SubFlowCall" | relative_url}}">Iterator SubFlowCall</a></li>
-		  <li><a href="{{ "nodes/Notification" | relative_url}}">Notification</a></li>
-		  <li><a href="{{ "nodes/Parallel_SubFlowCall" | relative_url}}">Parallel SubFlowCall</a></li>
-		  <li><a href="{{ "nodes/SavePoint" | relative_url}}">SavePoint</a></li>
-		  <li><a href="{{ "nodes/Spawn_SubFlowCall" | relative_url}}">Spawn SubFlowCall</a></li>
-		  <li><a href="{{ "nodes/Splitted_SubFlowCall" | relative_url}}">Splitted SubFlowCall</a></li>
-		  <li><a href="{{ "nodes/Start" | relative_url}}">Start</a></li>
-		  <li><a href="{{ "nodes/Wait" | relative_url}}">Wait</a></li>
+                  		  <li><a href="{{ "course/nodes/Start/#nodes" | relative_url}}">Start</a></li>
+				  <li><a href="{{ "course/nodes/Check/#nodes" | relative_url}}">Check</a></li>
+				  <li><a href="{{ "course/nodes/Wait/#nodes" | relative_url}}">Wait</a></li>
+				  <li><a href="{{ "course/nodes/Notification/#nodes" | relative_url}}">Notification</a></li>
+				  <li><a href="{{ "course/nodes/ChangeGVBuffer/#nodes" | relative_url}}">Change GVBuffer</a></li>
+				  <li><a href="{{ "course/nodes/SavePoint/#nodes" | relative_url}}">SavePoint</a></li>
+				  <li><a href="{{ "course/nodes/End/#nodes" | relative_url}}">End</a></li>
+				  <li><a href="{{ "course/nodes/Iterator_Enqueue/#nodes" | relative_url}}">Iterator Enqueue</a></li>
+				  <li><a href="{{ "course/nodes/Iterator_Call/#nodes" | relative_url}}">Iterator Call</a></li>
+				  <li><a href="{{ "course/nodes/Iterator_CoreCall/#nodes" | relative_url}}">Iterator CoreCall</a></li>
+				  <li><a href="{{ "course/nodes/Iterator_SubFlowCall/#nodes" | relative_url}}">Iterator SubFlowCall</a></li>
+				  <li><a href="{{ "course/nodes/Enqueue/#nodes" | relative_url}}">Enqueue</a></li>
+				  <li><a href="{{ "course/nodes/Dequeue/#nodes" | relative_url}}">Dequeue</a></li>
+				  <li><a href="{{ "course/nodes/Call/#nodes" | relative_url}}">Call</a></li>
+				  <li><a href="{{ "course/nodes/CoreCall/#nodes" | relative_url}}">CoreCall</a></li>
+				  <li><a href="{{ "course/nodes/SubFlowCall/#nodes" | relative_url}}">SubFlowCall</a></li>
+				  <li><a href="{{ "course/nodes/Spawn_SubFlowCall/#nodes" | relative_url}}">Spawn SubFlowCall</a></li>
+				  <li><a href="{{ "course/nodes/Parallel_SubFlowCall/#nodes" | relative_url}}">Parallel SubFlowCall</a></li>
+				  <li><a href="{{ "course/nodes/Splitted_SubFlowCall/#nodes" | relative_url}}">Splitted SubFlowCall</a></li>
 			</div>
             </li>
             </ul>
             </div>
-            <li><a href="{{ "course/Placeholders#course" | relative_url}}">Placeholders</a></li>
-	    <li><a href="{{ "" | relative_url}}"> Operations</a></li>
+            <li><a href="{{ "course/Placeholders/#course" | relative_url}}">Placeholders</a></li>
+	    <!--<li><a href="{{ "" | relative_url}}"> Operations</a></li>-->
           </ul>
         </li>
 	<!-- What's new -->
         <li>
           <a href="#new" data-toggle="collapse" aria-expanded="false">What's new?</a>
           <ul class="collapse list-unstyled" id="new">
-            <li><a href="{{ "pages/Newdeploy#pages" | relative_url}}">ALPHA1: deploy</a></li>
+            <li><a href="{{ "pages/Newdeploy/#new" | relative_url}}">ALPHA1: deploy</a></li>
           </ul>
         </li>
       </ul>
 
-	
+
     </nav>
-	  </div>
 	
 	<!-- Here starts the Main -->
     <div id="main">
