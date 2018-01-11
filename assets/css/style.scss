@@ -50,10 +50,11 @@ a, a:hover, a:focus {
     height: 100%;
     position: fixed;
     z-index: 1;
-    width: 280px;
+    width: 250px;
     top: 0;
     left: 0;
-    background-color: #124667;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px -1px #939393;
     overflow-x: hidden;
     padding-top: 30px;
 }
@@ -64,12 +65,12 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #124667;
+    background: #ffffff;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #124667;
+    border-bottom: 1px solid #ffffff;
 }
 
 #sidebar ul p {
@@ -79,32 +80,28 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.0em;
-    color: #ffffff;
+    padding: 8px;
+    font-size: 0.85em;
+    color: #238650;
     display: block;
 }
 
 #sidebar ul li a:hover {
-    color: #124467;
-    background: #fff;
+    background-color: #238650;
+    color: #ffffff;
+}
+#sidebar ul li a:focus {
+    background-color: #238650;
+    color: #ffffff;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #124667;
+    background: #ffffff;
 }
 
 #submenu {
   padding-left:20px;
 }
-
-#title-sidebar {
-    color: #ffffff;
-    padding-top: 5px;
-    margin-left: 20px;
-    font-size: 20px;
-  }
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -124,13 +121,18 @@ a[aria-expanded="true"]::before {
 }
 
 ul ul a {
-    font-size: 0.9em !important;
+    font-size: 0.85em !important;
     padding-left: 50px !important;
-    background: #124667;
+    background: #ffffff;
+}
+
+ul ul a:focus {
+    color:#fffffff; 
+    background: #238650;
 }
 
 /*-- Close Button Style --*/
-.closebtn {	  
+/*.closebtn {	  
     position: absolute;
     top: 0px;
     right: 12px;
@@ -141,21 +143,17 @@ ul ul a {
 }
 
 .toolbar{
-    height: 70px;
-    width: 100%;
     position: fixed;
     padding: 17px 20px 20px 20px;
     padding-right: 0;
-    text-align: left;
-    font-size: 13px;
     top: 10px;
     left: 0px;
-	}
+	}*/
+
 /*--- Logo ---*/
 .logo {
     width: 180px;
-    height: 80px;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 /* --- Main Style --- */
@@ -196,16 +194,34 @@ ul ul a {
 
 /* --- Mediaqueries --- */
 @media (max-width: 768px) {
+    .project-name {
+	 margin-left: 150px;   
+	}
+ 
     #sidebar {
-        margin-left: 0px;
-    }
+       	margin-left: 0px;
+    	width: 180px;
+    	font-size: 15px;
+	}
+	
     #sidebar.active {
         margin-left: 0;
     }
     #sidebarCollapse span {
         display: none;
     }
-    .main-content {
+	
+    .logo {
+	width: 130px;
+    	margin-left: 30px;
+	}
+	
+    #main-content {
 	margin-left: 30px;
 	}
+	
+    #main {
+	margin-left: 200px;
+	}
+	
 }
