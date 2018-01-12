@@ -21,7 +21,7 @@ $(document).ready(function () {
 	
 	$('#sidebar ul li a[href^="' + hash + '"]')
     		.css({
-       		 'background': '#00a4c5',
+       		 'background': '#238650',
        		 'color' : '#ffffff'
       });
 	var origUrl = window.location.hash.split('#')[0];
