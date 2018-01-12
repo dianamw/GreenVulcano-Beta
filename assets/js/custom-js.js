@@ -24,13 +24,6 @@ $(document).ready(function () {
        		 'background': '#238650',
        		 'color' : '#ffffff'
       });
-	
-	$(#sidebar ul li a").children("li").each(function() {
-    	var link = $(this).children("a").attr("href");
-    	if(link.indexOf(path) > -1){
-       		$(this).addClass("active");
-       return;
-    } 
-	});
+
 });
 
