@@ -25,6 +25,10 @@ $(document).ready(function () {
        		 'color' : '#ffffff'
       });
 	var origUrl = window.location.hash.split('#')[0];
-	$('a[href="' + origUrl + '"]').parent().addClass('#sidebar ul li:focus');
+	$('a[href="' + origUrl + '"]').parent()
+		.css({
+       		 'background': '#238650',
+       		 'color' : '#ffffff'
+      });
 });
 
