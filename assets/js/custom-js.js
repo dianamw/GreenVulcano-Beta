@@ -25,17 +25,13 @@ $(document).ready(function () {
        		 'color' : '#ffffff'
       });
 	
-	$(function(){
-    var current = location.pathname;
-    current = current.substring(current.lastIndexOf('/'));
-    $('.sidenav li a').each(function(){
-        var $this = $(this);
-        // if the current path is like this link, make it active
-        if($this.attr('href').indexOf(current) !== -1){
-            $this.addClass('active');
-        }
-   		 });
-	});
+var full_path = location.href.split("#")[0];
 
+    $("#sidebar ul li a").each(function(){
+	var $this = $(this);
+	if($this.prop("href").split("#")[0] == full_path) {
+	$(this).parent().addClass("active");
+        }
+    });
 });
 
