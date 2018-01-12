@@ -27,7 +27,7 @@ $('#sidebar ul li a[href^="' + hash + '"]')
 	
 var full_path = location.href.split("#")[0];
 
-    $("#sidebar ul li a").each(function(){
+    $("#sidebar ul ul a").each(function(){
 	var $this = $(this);
 	if($this.prop("href").split("#")[0] == full_path) {
 	$(this).parent().addClass("active");
