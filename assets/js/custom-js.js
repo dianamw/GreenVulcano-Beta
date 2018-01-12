@@ -24,6 +24,7 @@ $(document).ready(function () {
        		 'background': '#00a4c5',
        		 'color' : '#ffffff'
       });
-	$('a[href="' + hash + '"]').parent().addClass('#sidebar ul li:focus');
+	var origUrl = window.location.hash.split('#')[0];
+	$('a[href="' + origUrl + '"]').parent().addClass('#sidebar ul li:focus');
 });
 
