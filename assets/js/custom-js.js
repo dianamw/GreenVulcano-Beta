@@ -33,5 +33,10 @@ var full_path = location.href.split("#")[0];
 	$(this).parent().addClass("active");
         }
     });
+	/* test */
+	$('#sidebar ul ul a').filter(function () {
+            return this.href == url;
+        }).parent().addClass('active').parent().parent().addClass('active');
+	/* fine test */
 });
 
