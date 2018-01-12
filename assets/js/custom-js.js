@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
         var url = window.location;
     // Will only work if string in href matches with location
         $('ul.nav a[href="' + url + '"]').parent().addClass('active');
@@ -7,7 +7,7 @@ $(document).ready(function () {
         $('ul.nav a').filter(function () {
             return this.href == url;
         }).parent().addClass('active').parent().parent().addClass('active');
-    });
+    });*/
 
 $(document).ready(function () {
     //fetch hash in a variable
@@ -18,5 +18,12 @@ $(document).ready(function () {
 		  //collapse submenu
 		  $(hash).parents('.collapse').addClass('in');
   }
+	
+	$('#sidebar ul li a[href^="' + hash + '"]')
+    		.css({
+       		 'background': '#00a4c5',
+       		 'color' : '#ffffff'
+      });
+	$('a[href="' + hash + '"]').parent().addClass('#sidebar ul li:focus');
 });
 
