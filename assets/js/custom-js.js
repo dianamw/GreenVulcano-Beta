@@ -19,11 +19,11 @@ $(document).ready(function () {
 		  $(hash).parents('.collapse').addClass('in');
   }
 	
-$('#sidebar ul li a[href^="' + hash + '"]')
-    		.css({
+$('#sidebar ul li a[href^="' + hash + '"]').parent().addClass('active');
+    		/*.css({
        		 'background': '#238650',
        		 'color' : '#ffffff'
-      });
+      });*/
 	
 var full_path = location.href.split("#")[0];
 
