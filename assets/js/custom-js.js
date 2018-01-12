@@ -25,7 +25,7 @@ $(document).ready(function () {
        		 'color' : '#ffffff'
       });
 	var origUrl = window.location.hash.split('#')[0];
-	$('a[href="' + origUrl + '"]').closest()
+	$('ul ul a[href="' + origUrl + '"]').closest()
 		.css({
        		 'background': '#238650',
        		 'color' : '#ffffff'
