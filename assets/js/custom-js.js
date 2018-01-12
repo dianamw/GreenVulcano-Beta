@@ -34,7 +34,7 @@ var full_path = location.href.split("#")[0];
         }
     });
 	/* test */
-	$('#sidebar ul ul a').filter(function () {
+	$('#sidebar ul li a').filter(function () {
             return this.href == url;
         }).parent().addClass('active').parent().parent().addClass('active');
 	/* fine test */
