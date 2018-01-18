@@ -14,4 +14,15 @@ logo: /assets/images/prova.png
 permalink: pretty
 owner_url: 
   url: http://www.greenvulcanotechnologies.com/
+  
+collections:
+  my_collection:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "/GreenVulcano-Beta/"
+    values:
+      layout: "specific-layout"
 
