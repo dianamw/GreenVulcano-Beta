@@ -31,10 +31,5 @@ $(document).ready(function() {
       $(this).parent().addClass("active");
     }
   });
-  
-  /* add active class to sub links */
-  $('#sidebar ul li a').filter(function() {
-    return this.href == hash;
-  }).parent().addClass('active');
 
 });
