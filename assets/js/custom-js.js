@@ -20,8 +20,8 @@ $(document).ready(function() {
   }
   
   /* active main menu */
-  var url = window.location;
-  $('#sidebar ul li a[href^="' + url + '"]').parent().addClass('active');
+ /* var url = window.location;
+  $('#sidebar ul li a[href^="' + url + '"]').parent().addClass('active');*/
 
   /* fetch path without hash */
   var full_path = location.href.split("#")[0];
@@ -35,7 +35,7 @@ $(document).ready(function() {
       
   /* add active class to sub links */
  $('#sidebar li a').filter(function() {
-    return this.href == url;
+    return this.href == hash;
   }).parent().addClass('active').parent().parent().addClass('active');
         console.log("ciao");
 
