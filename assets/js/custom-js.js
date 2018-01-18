@@ -39,6 +39,7 @@ $(document).ready(function() {
  $('#sidebar li a').filter(function() {
     return this.href == hash;
   }).parent().addClass('active').parent().parent().addClass('active');
+        console.log("ciao");
 
 
 });
