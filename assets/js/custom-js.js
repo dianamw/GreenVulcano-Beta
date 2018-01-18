@@ -27,9 +27,9 @@ $(document).ready(function() {
   /* add active class to links */
   $("#sidebar ul ul a").each(function() {
     var $this = $(this);
-    if ($this.prop("href").split("#")[0] == full_path) {
+    /*if ($this.prop("href").split("#")[0] == full_path) {
       $(this).parent().addClass("active");
-    }
+    }*/
           if ($this.prop("href").split("")[0] == full_path) {
                 $(this).parent().addClass("active");
           }
