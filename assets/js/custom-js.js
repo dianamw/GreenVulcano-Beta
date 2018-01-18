@@ -18,11 +18,6 @@ $(document).ready(function() {
     //collapse submenu
     $(hash).parents('.collapse').addClass('in');
   }
-  
-  /* active main menu */
- /* var url = window.location;
-  $('#sidebar ul li a[href^="' + url + '"]').parent().addClass('active');*/
-
   /* fetch path without hash */
   var full_path = location.href.split("#")[0];
   /* add active class to links */
