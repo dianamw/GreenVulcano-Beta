@@ -27,7 +27,7 @@ $(document).ready(function() {
   /* add active class to links */
   $("#sidebar ul ul a").each(function() {
     var $this = $(this);
-    if ($this.prop("href").split("#")[0] == full_path) {
+    if ($this.prop("href").split("#")[1] == full_path) {
       $(this).parent().addClass("active");
     }
   });
@@ -35,7 +35,7 @@ $(document).ready(function() {
   /* add active class to sub links */
   $('#sidebar ul li a').filter(function() {
     return this.href == hash;
-  }).parent().addClass('active').parent().parent().parent().addClass('active');
+  }).parent().addClass('active').parent().parent().addClass('active');
 
 
 });
