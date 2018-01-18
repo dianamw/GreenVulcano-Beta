@@ -98,7 +98,7 @@ a, a:hover, a:focus {
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     background: #238650;
     color: #ffffff;
-	
+    content: "\e080";	
 }
 
 #submenu {
