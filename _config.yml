@@ -29,6 +29,6 @@ defaults:
     scope:
       path: "pages"
     values:
-      layout: "default-page"
+      layout: "default_page"
  
 
