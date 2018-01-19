@@ -25,4 +25,9 @@ defaults:
       path: "/GreenVulcano-Beta/"
     values:
       layout: "specific-layout"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "index"
 
