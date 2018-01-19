@@ -25,5 +25,10 @@ defaults:
       path: "{{site.baseurl}}"
     values:
       layout: "default"
+  -
+    scope:
+      path: "pages"
+    values:
+      layout: "index"
  
 
