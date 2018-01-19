@@ -20,15 +20,10 @@ collections:
     output: true
 
 defaults:
- -
-    scope:
-      path: "{{site.baseurl}}"
-    values:
-      layout: "default"
   -
     scope:
-      path: ""
+      path: "pages"
     values:
-      layout: "default_page"
+      layout: "default"
  
 
