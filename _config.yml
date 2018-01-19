@@ -22,8 +22,14 @@ collections:
 defaults:
   -
     scope:
-      path: "pages"
+      path: "GreenVulcano-Beta"
     values:
       layout: "default"
+  -
+    scope:
+      path: "pages"
+    values:
+      layout: "default_page"
+  
  
 
