@@ -24,6 +24,6 @@ defaults:
     scope:
       path: "{{site.baseurl}}"
     values:
-      layout: "index"
+      layout: "default"
  
 
