@@ -24,11 +24,11 @@ defaults:
     scope:
       path: "{{site.baseurl}}"
     values:
-      layout: "index"
+      layout: "default"
   -
     scope:
       path: "pages"
     values:
-      layout: "default"
+      layout: "default-page"
  
 
