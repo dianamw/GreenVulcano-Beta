@@ -1,3 +1,9 @@
+---
+   layout: default_page
+   title: About
+   permalink: /pages/
+   ---
+
 # Enqueue
 <div data-aos="fade-left"><img src="{{site.baseurl}}{{site.images}}/enqueue.png" /></div>
 
