@@ -22,7 +22,7 @@ collections:
 defaults:
   -
     scope:
-      path: "GreenVulcano-Beta"
+      path: "gv-documentation"
     values:
       layout: "default"
   -
