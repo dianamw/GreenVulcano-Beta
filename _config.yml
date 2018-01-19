@@ -22,7 +22,7 @@ collections:
 defaults:
   -
     scope:
-      path: "{{ site.baseurl}}/GreenVulcano-Beta/"
+      path: "{{site.baseurl}}/GreenVulcano-Beta/"
     values:
       layout: "default"
   -
