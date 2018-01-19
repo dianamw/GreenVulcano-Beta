@@ -22,8 +22,8 @@ collections:
 defaults:
   -
     scope:
-      path: "{{site.baseurl}}"
+      path: ""
     values:
-      layout: "default"
+      layout: "index"
  
 
