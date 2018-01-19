@@ -25,9 +25,5 @@ defaults:
       path: "{{site.baseurl}}/GreenVulcano-Beta/"
     values:
       layout: "default"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "index"
+ 
 
