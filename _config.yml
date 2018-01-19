@@ -22,13 +22,13 @@ collections:
 defaults:
   -
     scope:
-      path: "{{site.baseurl}}"
+      path: "https://dianamw.github.io/GreenVulcano-Beta/"
     values:
       layout: "index"
   -
     scope:
       path: "pages"
     values:
-      layout: "index"
+      layout: "default"
  
 
