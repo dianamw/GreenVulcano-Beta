@@ -20,6 +20,11 @@ collections:
     output: true
 
 defaults:
+ -
+    scope:
+      path: "{{site.baseurl}}"
+    values:
+      layout: "index"
   -
     scope:
       path: "pages"
