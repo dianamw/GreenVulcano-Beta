@@ -1,4 +1,4 @@
-{% include_relative layouts/header_logo.html %}
+
 # GreenVulcano 4 ESB   
 Welcome to the GreenVulcano 4 ESB homepage!
 Objective of this site is provide a meaningful and immersive guide regarding the introduction and management of the ESB "GreenVulcano".  
