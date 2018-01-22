@@ -11,14 +11,13 @@ collections:
 theme: jekyll-theme-cayman
 images: /assets/images
 logo: /assets/images/prova.png
-permalink: pretty
 owner_url: 
   url: http://www.greenvulcanotechnologies.com/
   
 collections:
    pages:
      output: true
-     permalink: /:path/
+     permalink: /:collection/:path/
 
 defaults:
   -
