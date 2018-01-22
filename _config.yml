@@ -17,7 +17,7 @@ owner_url:
 collections:
    pages:
      output: true
-     permalink: /:collection/:path/
+     permalink: pretty
 
 defaults:
   -
