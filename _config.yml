@@ -17,6 +17,7 @@ owner_url:
 collections:
    pages:
      output: true
+     collection: /pages/:title/
 
 defaults:
   -
