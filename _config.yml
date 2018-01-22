@@ -16,8 +16,9 @@ owner_url:
   url: http://www.greenvulcanotechnologies.com/
   
 collections:
-  my_collection:
-    output: true
+   pages:
+     output: true
+     permalink: /:path/
 
 defaults:
   -
