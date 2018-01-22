@@ -17,7 +17,8 @@ owner_url:
 defaults:
   -
     scope:
-      path: "pages", "prova"
+      path: "pages"
+            "prova"
     values:
       layout: "default_page"
   
