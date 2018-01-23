@@ -1,6 +1,6 @@
 # Guide to the new functionality of deploy of GV ESB V4 alpha1
 
-The new process of deployment is based on two distinct phases: installation of the configuration and release of the configuration installed.
+The new process of deploy is based on two distinct phases: installation of the configuration and release of the configuration installed.
 
 ### Installation of the configuration:
 
@@ -16,7 +16,7 @@ The new process of deployment is based on two distinct phases: installation of t
 
 ### Release
 
-* It is possible at any time to cancel the deployment clicking the “Cancel”  button.
+* It is possible at any time to cancel the deploy clicking the “Cancel”  button.
 
 #### Step 1:
 
@@ -34,7 +34,8 @@ A control is associated to the page so that all properties must be filled, other
 
 ### Reload Configuration:
 
-* To make effective the deployment of the configuration, click on the reload button (next to “Export”) to refresh the system.
+* To make effective the deploy of the configuration, click on the reload button (next to “Export”) to refresh the system.
+
 ### Conclusion
 * The configuration just loaded will be displayed on “Current Configuration” and the date changed.
 * If you need to export the configuration, click on “Export” and select the directory in which you need to save the configuration on.zip extension.
