@@ -7,7 +7,7 @@ The new process of deployment is based on two distinct phases: installation of t
 * Connect to the gvconsole;
 * Sign in with your credentials
 * Go to the “Deploy” section through the sidemenu.
-* It is possible here to see information regard the current configuration on karaf's instance, a configuration list added in which is 	   possible to deploy(empty at the beginning);
+* Here you can see information about the current configuration on the karaf instance, 	and a list of added configurations on which you   can deploy (initially empty);
 * To add a new configuration, click the orange button “+”;
 * Click “Browse” select the file .zip of the configuration needed to add to the list, select an ID (Be careful! If you choose an ID       already chosen, the current configuration will be overwritten by the new one.
 * Click “Add”.
@@ -22,6 +22,7 @@ The new process of deployment is based on two distinct phases: installation of t
 
 * It will show a list of current Services and Operations (inside Services) in both GVCore.xml of the new configuration. In addition there is a button for displaying the GVCore.xml as a file.
 * After verifying that the configuration is ok, click on "Next"
+
 #### Step 2:
 
 * Here will be displayed the current properties of the new GVCore.xml with a blank space to add the value. In case the property is already in GVCore.xml of the current configuration, the value already associated will be displayed. You can decide to leave 	the value, or to simply change the current one and writing a new one.
