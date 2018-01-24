@@ -98,12 +98,12 @@ a, a:hover, a:focus {
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     background: #238650;
     color: #ffffff;
-    content: "\e080";	
+	
 }
 
-#submenu {
+/*#submenu {
   padding-left:20px;
-}
+}*/
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -143,7 +143,6 @@ ul ul a {
     color: #ffffff;
     margin-left: 50px;
 }
-
 .toolbar{
     position: fixed;
     padding: 17px 20px 20px 20px;
@@ -155,7 +154,7 @@ ul ul a {
 /*--- Logo ---*/
 .logo {
     width: 180px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 /* --- Main Style --- */
@@ -202,7 +201,7 @@ ul ul a {
  
     #sidebar {
        	margin-left: 0px;
-    	width: 180px;
+    	width: 200px;
     	font-size: 15px;
 	}
 	
